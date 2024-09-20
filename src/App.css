@@ -1,0 +1,88 @@
+* {
+    box-sizing: border-box;
+}
+
+.App {
+    background-color: var(--app-background);
+    padding-bottom: 8rem;
+}
+
+.demo-link {
+    background-color: var(--light-purple);
+    padding: 0.5rem 1rem;
+    border-radius: 1%;
+    border: 1px dashed black;
+    color: rgb(5, 5, 54);
+}
+
+.demo-link:hover {
+    background-color: rgb(243, 192, 255);
+}
+
+.demo-screenshot {
+    max-width: 32rem;
+    margin: 1rem;
+    box-shadow: 0 0 2px 1px;
+}
+
+a {
+    font-size: 18px;
+    text-decoration: none;
+    color: var(--link-color);
+}
+
+p {
+    font-size: 18px;
+    line-height: 1.5;
+}
+
+a:hover {
+    color: var(--link-hover-color);
+}
+
+section {
+    min-height: 100vh;
+    padding: 2rem 2rem;
+}
+
+li {
+    list-style-position: inside;
+}
+
+ul, ol, h2, h3, h4 {
+    font-weight: 400;
+    margin: 0;
+    padding: 0;
+}
+
+.card {
+    font-size: 16px;
+    text-align: center;
+    padding: 2rem 4rem;
+    background-color: var(--light-purple);
+    box-shadow: 0 0 2px 1px;
+}
+
+.card a {
+    color: rgb(10, 0, 76);
+}
+
+.card > div {
+    padding-bottom: 0.5rem;
+}
+
+.card-heading {
+    font-size: 1.8rem;
+}
+
+.card-image img {
+    border-radius: 50%;
+    width: 150px;
+    height: 150px;
+    box-shadow: 0 0 2px 1px;
+}
+
+.card-list {
+    padding: 0;
+    list-style-type: disc;
+}

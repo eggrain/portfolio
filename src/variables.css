@@ -1,0 +1,17 @@
+:root {
+  --main-pink: rgb(141, 52, 88);
+  --main-purple: rgb(131, 131, 248);
+  --light-purple: rgb(188 149 255);
+  --blackish-blue: rgba(0, 2, 10, 0.887);
+  --white: rgb(255, 255, 255);
+
+  --app-background: var(--main-purple);
+  --menu-background: var(--light-purple);
+
+  --link-color: var(--blackish-blue);
+  --link-hover-color: var(--white);
+  --card-background: var(--light-purple);
+
+
+  --menu-width: 16rem;
+}
