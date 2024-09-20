@@ -6,9 +6,6 @@ jobs:
   build-and-deploy-react-client:
     environment: development
     runs-on: ubuntu-latest
-    defaults:
-      run:
-        working-directory: ./client
     steps:
       - name: Checkout repository
         uses: actions/checkout@v4
@@ -26,5 +23,5 @@ jobs:
           host: ${{ secrets.HOST }}
           username: ${{ secrets.USERNAME }}
           key: ${{ secrets.PRIVATE_SSH_KEY }}
-          source: "./client/build"
+          source: "./build"
           target: /var/www/kylerego_net
