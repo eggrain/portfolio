@@ -12,11 +12,13 @@
     padding: 0.5rem 1rem;
     border-radius: 1%;
     border: 1px dashed black;
-    color: rgb(5, 5, 54);
+    color: var(--demo-link-color);
 }
 
 .demo-link:hover {
-    background-color: rgb(243, 192, 255);
+    color: var(--white);
+    background-color: var(--dark-purple);
+    text-decoration: underline;
 }
 
 .demo-screenshot {

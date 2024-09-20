@@ -1,13 +1,10 @@
 .hero-card {
+    background-color: var(--light-pink);
     font-size: 16px;
     text-align: center;
     padding: 2rem 4rem;
     background-color: var(--hero-card-background);
     box-shadow: 0 0 2px 1px;
-}
-
-.hero-card a {
-    color: rgb(10, 0, 76);
 }
 
 .hero-card > div {

@@ -1,11 +1,14 @@
 import Hero from "./Hero";
 import AnkiBooks from "./AnkiBooks";
+import Larder from "./Larder";
 import Menu from "./Menu";
+import Blog from "./Blog";
 
-import "./App.css";
-import "./utility.css";
-import "./flex.css";
-import "./fonts.css";
+import "./css/App.css";
+import "./css/hero.css";
+import "./css/utility.css";
+import "./css/flex.css";
+import "./css/fonts.css";
 
 function App() {
     return <>
@@ -15,7 +18,8 @@ function App() {
    
             <Hero />
             <AnkiBooks />
-
+            <Larder />
+            <Blog />
         </div>
     </>;
 }

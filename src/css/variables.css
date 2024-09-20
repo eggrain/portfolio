@@ -1,6 +1,7 @@
 :root {
   --main-pink: rgb(141, 52, 88);
   --main-purple: rgb(131, 131, 248);
+  --dark-purple: rgb(212, 40, 255);
   --light-purple: rgb(188 149 255);
   --lightish-blue: rgba(0, 45, 226, 0.887);
   --blackish-blue: rgba(0, 2, 10, 0.887);
@@ -15,4 +16,6 @@
   --link-hover-color: var(--blackish-blue);
   --hero-card-background: var(--light-pink);
   --section-card-background: var(--white);
+
+  --demo-link-color: var(--blackish-blue);
 }

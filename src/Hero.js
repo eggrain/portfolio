@@ -1,6 +1,6 @@
 import List from "./components/List";
 
-import "./hero.css";
+import "./css/hero.css";
 
 export default function Hero() {
     return <section id="hero" className="d-flex justify-content-center align-items-center">
