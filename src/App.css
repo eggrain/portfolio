@@ -45,6 +45,15 @@ section {
     padding: 2rem 2rem;
 }
 
+.section-card {
+    border: 1px solid black;
+    background-color: var(--section-card-background);
+    padding: 2rem 1rem;
+    max-width: 840px;
+    width: 100%;
+    box-shadow: 0 0 2px 1px;
+}
+
 li {
     list-style-position: inside;
 }
@@ -53,36 +62,4 @@ ul, ol, h2, h3, h4 {
     font-weight: 400;
     margin: 0;
     padding: 0;
-}
-
-.card {
-    font-size: 16px;
-    text-align: center;
-    padding: 2rem 4rem;
-    background-color: var(--light-purple);
-    box-shadow: 0 0 2px 1px;
-}
-
-.card a {
-    color: rgb(10, 0, 76);
-}
-
-.card > div {
-    padding-bottom: 0.5rem;
-}
-
-.card-heading {
-    font-size: 1.8rem;
-}
-
-.card-image img {
-    border-radius: 50%;
-    width: 150px;
-    height: 150px;
-    box-shadow: 0 0 2px 1px;
-}
-
-.card-list {
-    padding: 0;
-    list-style-type: disc;
 }

@@ -1,23 +1,25 @@
 import List from "./components/List";
 
+import "./hero.css";
+
 export default function Hero() {
-    return <section id="hero"
-                    className="d-flex justify-content-center align-items-center">
+    return <section id="hero" className="d-flex justify-content-center align-items-center">
+                <div className="section-card">
                         <div className="d-flex flex-column align-items-center column-gap-1">
-                            <div className="card">
-                                <div className="card-image">
+                            <div className="hero-card">
+                                <div className="hero-card-image">
                                     <img src="me.png" alt="Me" />
                                 </div>
-                                <div className="card-heading">
+                                <div className="hero-card-heading">
                                     Kyle Rego
                                 </div>
-                                <div className="card-text">
+                                <div className="hero-card-text">
                                     Software Developer
                                 </div>
                             </div>
 
                             <p className="text-center font-20px" style={{maxWidth: "720px"}}>
-                                Objective: to be hired in a software developer, support engineer, or other challenging technical position with opportunity for advancement with demonstrated excellence.
+                                Objective: to be hired in a software developer, support engineer, or other technical position to grow as an IT professional.
                             </p>
 
                             <div className="d-flex flex-wrap align-items-start justify-content-around column-gap-3 row-gap-1">
@@ -31,5 +33,6 @@ export default function Hero() {
 
                             </div>
                         </div>
+                </div>
         </section>;
 }

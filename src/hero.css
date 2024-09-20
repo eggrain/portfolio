@@ -1,0 +1,31 @@
+.hero-card {
+    font-size: 16px;
+    text-align: center;
+    padding: 2rem 4rem;
+    background-color: var(--hero-card-background);
+    box-shadow: 0 0 2px 1px;
+}
+
+.hero-card a {
+    color: rgb(10, 0, 76);
+}
+
+.hero-card > div {
+    padding-bottom: 0.5rem;
+}
+
+.hero-card-heading {
+    font-size: 1.8rem;
+}
+
+.hero-card-image img {
+    border-radius: 50%;
+    width: 150px;
+    height: 150px;
+    box-shadow: 0 0 2px 1px;
+}
+
+.hero-card-list {
+    padding: 0;
+    list-style-type: disc;
+}

@@ -2,16 +2,17 @@
   --main-pink: rgb(141, 52, 88);
   --main-purple: rgb(131, 131, 248);
   --light-purple: rgb(188 149 255);
+  --lightish-blue: rgba(0, 45, 226, 0.887);
   --blackish-blue: rgba(0, 2, 10, 0.887);
-  --white: rgb(255, 255, 255);
+  --white: rgb(253, 253, 253);
+  --light-pink: rgb(255, 223, 246);
+  --green: rgb(175, 241, 184);
 
-  --app-background: var(--main-purple);
-  --menu-background: var(--light-purple);
+  --app-background: var(--light-purple);
+  --menu-background: var(--light-pink);
 
-  --link-color: var(--blackish-blue);
-  --link-hover-color: var(--white);
-  --card-background: var(--light-purple);
-
-
-  --menu-width: 16rem;
+  --link-color: var(--lightish-blue);
+  --link-hover-color: var(--blackish-blue);
+  --hero-card-background: var(--light-pink);
+  --section-card-background: var(--white);
 }
