@@ -31,6 +31,7 @@ export default function Hero() {
 
                                 <List heading={"Tools"} items={["Git", "Visual Studio Code"]} />
 
+                                <List heading={"Operating Systems"} items={["Windows", "Linux"]} />
                             </div>
                         </div>
                 </div>

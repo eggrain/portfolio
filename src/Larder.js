@@ -24,7 +24,7 @@ export default function Larder() {
                     </p>
                 </div>
 
-                <List heading={"Gained experience with"} items={["React", "ASP.NET Core", "Bootstrap", "SQLite", "GitHub Actions", "Controller-service-repository architecture"]} />
+                <List heading={"Gained experience with"} items={["React", "ASP.NET Core", "ASP.NET Core Identity", "Entity Framework Core", "Bootstrap", "SQLite", "GitHub Actions", "Controller-service-repository architecture"]} />
             </div>
 
         </div>

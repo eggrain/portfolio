@@ -14,7 +14,7 @@ export default function AnkiBooks() {
                 
                 <div className="d-flex flex-column column-gap-1">
                     <span>Source code:</span>
-                    <a className="demo-link" href="https://github.com/KyleRego/ankibooks">KyleRego/ankibooks</a>
+                    <a className="demo-link" href="https://github.com/KyleRego/anki_books">KyleRego/anki_books</a>
                 </div>
             </div>
 
