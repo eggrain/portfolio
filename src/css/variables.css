@@ -17,5 +17,6 @@
   --hero-card-background: var(--light-pink);
   --section-card-background: var(--white);
 
-  --demo-link-color: var(--blackish-blue);
+  --demo-link-color: var(--lightish-blue);
+  --demo-link-background: var(--light-pink);
 }

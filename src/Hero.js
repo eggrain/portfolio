@@ -10,11 +10,15 @@ export default function Hero() {
                                 <div className="hero-card-image">
                                     <img src="me.png" alt="Me" />
                                 </div>
-                                <div className="hero-card-heading">
+                                <div className="mb-2 hero-card-heading">
                                     Kyle Rego
                                 </div>
-                                <div className="hero-card-text">
+                                <div className="mb-2 hero-card-text">
                                     Software Developer
+                                </div>
+                                <div className="d-flex justify-content-around">
+                                    <a href="mailto:regoky@outlook.com">Email</a>
+                                    <a href="https://www.linkedin.com/in/kyle-rego-117b25139/">LinkedIn</a>
                                 </div>
                             </div>
 

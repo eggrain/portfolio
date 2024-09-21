@@ -16,10 +16,15 @@ export default function AnkiBooks() {
                     <span>Source code:</span>
                     <a className="demo-link" href="https://github.com/KyleRego/anki_books">KyleRego/anki_books</a>
                 </div>
+
+                <div className="d-flex flex-column column-gap-1">
+                    <span>Ruby gem:</span>
+                    <a className="demo-link" href="https://rubygems.org/gems/anki_record/versions/0.4.1">Anki Record</a>
+                </div>
             </div>
 
             <div className="d-flex flex-wrap justify-content-center column-gap-3 align-items-center">
-                <div className="flex-grow-1">
+                <div className="flex-grow-1 min-w-50">
                     <p>
                         Anki Books is a Ruby on Rails web application for taking notes and creating flashcards.
                     </p>

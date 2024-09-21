@@ -8,7 +8,7 @@
 }
 
 .demo-link {
-    background-color: var(--light-purple);
+    background-color: var(--demo-link-background);
     padding: 0.5rem 1rem;
     border-radius: 1%;
     border: 1px dashed black;
@@ -51,7 +51,7 @@ section {
     border: 1px solid black;
     background-color: var(--section-card-background);
     padding: 2rem 1rem;
-    max-width: 840px;
+    max-width: 95%;
     width: 100%;
     box-shadow: 0 0 2px 1px;
 }
