@@ -38,7 +38,7 @@ export default function AnkiBooks() {
                     </p>    
                 </div>
 
-                <List heading={"Gained experience with"} items={["Ruby on Rails 7", "PostgreSQL", "Turbo", "Stimulus", "RSpec", "Selenium", "Capybara", "Trix editor", "Import maps", "Cascade Layers"]} />
+                <List heading={"Gained experience with"} items={["Ruby on Rails 7", "PostgreSQL", "Turbo", "Stimulus", "RSpec", "Selenium", "Capybara", "Trix editor", "Import maps", "Cascade Layers", "Ruby gems", "SQLite"]} />
             </div>
 
             <div className="d-flex column-gap-3 align-items-center justify-content-start overflow-x-scroll">

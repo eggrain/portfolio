@@ -12,5 +12,5 @@ export default function Menu() {
             </ol>
             
         </nav>
-    </div>
+    </div>;
 }
