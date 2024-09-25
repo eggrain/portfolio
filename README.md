@@ -1,3 +1,3 @@
 # README
 
-This is my [Portfolio website](https://kylerego.net)
+React app source code for my [portfolio website](https://kylerego.net).

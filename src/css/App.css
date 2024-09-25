@@ -44,7 +44,11 @@ a:hover {
 
 section {
     min-height: 100vh;
-    padding: 2rem 2rem;
+    padding: 1rem 1rem;
+}
+
+.card {
+   background-color: var(--card-background-color); 
 }
 
 @media (max-width: 480px) {
@@ -54,11 +58,10 @@ section {
 }
 
 .section-card {
-    border: 1px solid black;
+    border: 1px solid var(--black);
     background-color: var(--section-card-background);
     padding: 2rem 1rem;
     width: 100%;
-    box-shadow: 0 0 2px 1px;
 }
 
 @media (min-width: 880px) {
