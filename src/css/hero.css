@@ -1,19 +1,11 @@
 .hero-card {
-    background-color: var(--light-pink);
     font-size: 16px;
     text-align: center;
     padding: 1rem 2rem;
-    background-color: var(--hero-card-background);
-    border: 1px solid var(--black);
-    width: 100%;
-}
-
-.hero-card > div {
-    padding-bottom: 0.5rem;
 }
 
 .hero-card-heading {
-    font-size: 1.8rem;
+    font-size: 2.3rem;
 }
 
 .hero-card-image img {

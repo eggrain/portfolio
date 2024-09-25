@@ -23,4 +23,6 @@
   --demo-link-background: var(--white);
 
   --card-background-color: var(--blackish-blue);
+
+  --dashed-border: 1px dashed black;
 }
