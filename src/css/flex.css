@@ -6,6 +6,10 @@
     flex-wrap: wrap;
 }
 
+.flex-wrap-reverse {
+    flex-wrap: wrap-reverse;
+}
+
 .flex-row {
     flex-direction: row;
 }

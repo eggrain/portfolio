@@ -9,9 +9,9 @@ export default function Hero() {
                             <div className="hero-card d-flex flex-wrap-reverse justify-content-center column-gap-3 align-items-center">
 
                                 <div>
-                                    <div className="mb-2 hero-card-heading">
+                                    <h1 className="mb-2 hero-card-heading">
                                         Kyle Rego
-                                    </div>
+                                    </h1>
                                     <div className="mb-2 hero-card-text">
                                         Software Developer (Web)
                                     </div>
@@ -26,9 +26,11 @@ export default function Hero() {
                                 </div> 
                             </div>
 
-                            <p className="text-center font-20px" style={{maxWidth: "720px"}}>
-                                Portfolio Objective: to be hired in a software developer, support engineer, or other technical position to grow as an IT professional.
+                            <p className="text-center font-20px mt-0" style={{maxWidth: "720px"}}>
+                                <h2 className="border-bottom font-20px w-fit d-inline">Portfolio Objective: </h2>
+                                to be hired in a software developer, support engineer, or other technical position to grow as an IT professional.
                             </p>
+                            
 
                             <div className="d-flex flex-wrap align-items-start justify-content-around column-gap-3 row-gap-1 mb-4">
                                 <List heading={"Languages"} items={["Java (learning)", "C#", "JavaScript", "Ruby"]} />

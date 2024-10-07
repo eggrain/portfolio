@@ -74,7 +74,7 @@ li {
     list-style-position: inside;
 }
 
-ul, ol, h2, h3, h4 {
+h1, h2, ul, ol, h2, h3, h4 {
     font-weight: 400;
     margin: 0;
     padding: 0;
