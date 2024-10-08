@@ -20,7 +20,7 @@ export default function Larder() {
             <div className="d-flex flex-wrap justify-content-center column-gap-3 align-items-center">
                 <div className="flex-grow-1">
                     <p>
-                        Larder is a React app and ASP.NET Core backend for taking inventories of foods and ingredients and nutrition tracking.
+                        Larder is a React and ASP.NET Core web app mainly for taking inventories of foods and ingredients.
                     </p>
                 </div>
 
