@@ -16,8 +16,7 @@
 }
 
 .demo-link:hover {
-    color: var(--white);
-    background-color: var(--dark-purple);
+    color: var(--black);
     text-decoration: underline;
 }
 

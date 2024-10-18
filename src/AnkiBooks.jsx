@@ -1,5 +1,6 @@
 import List from "./components/List"
 import Screenie from "./components/Screenie";
+import DemoLink from "./components/DemoLink";
 
 export default function AnkiBooks() {
     return <section id="ruby-ankibooks" className="d-flex justify-content-center align-items-center">
@@ -7,20 +8,14 @@ export default function AnkiBooks() {
             <div className="mb-4 d-flex flex-wrap justify-content-center align-items-center column-gap-3 row-gap-1">
                 <h2 className="font-42px">Anki Books</h2>
 
-                <div className="d-flex flex-column column-gap-1">
-                    <span>Deployed:</span>
-                    <a className="demo-link" href="https://ankibooks.io">ankibooks.io</a>
-                </div>
-                
-                <div className="d-flex flex-column column-gap-1">
-                    <span>Source code:</span>
-                    <a className="demo-link" href="https://github.com/KyleRego/anki_books">KyleRego/anki_books</a>
-                </div>
+                <DemoLink href="https://ankibooks.io"
+                            text="ankibooks.io"
+                            labelText="Deployed:" />
 
-                <div className="d-flex flex-column column-gap-1">
-                    <span>Ruby gem:</span>
-                    <a className="demo-link" href="https://rubygems.org/gems/anki_record/versions/0.4.1">Anki Record</a>
-                </div>
+                <DemoLink href="https://rubygems.org/gems/anki_record/versions/0.4.1"
+                            text="Anki Record"
+                            labelText="Ruby gem:" />
+
             </div>
 
             <div className="d-flex flex-wrap justify-content-center column-gap-3 align-items-center">

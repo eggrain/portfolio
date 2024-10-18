@@ -1,4 +1,5 @@
 import List from "./components/List";
+import DemoLink from "./components/DemoLink";
 
 export default function Larder() {
     return <section id="larder" className="d-flex justify-content-center align-items-center">
@@ -6,15 +7,9 @@ export default function Larder() {
             <div className="mb-4 d-flex flex-wrap justify-content-center align-items-center column-gap-3 row-gap-1">
                 <h2 className="font-42px">Larder</h2>
 
-                <div className="d-flex flex-column column-gap-1">
-                    <span>Deployed:</span>
-                    <a className="demo-link" href="https://larder.lol">larder.lol</a>
-                </div>
-                
-                <div className="d-flex flex-column column-gap-1">
-                    <span>Source code:</span>
-                    <a className="demo-link" href="https://github.com/KyleRego/Larder">KyleRego/Larder</a>
-                </div>
+                <DemoLink href="https://larder.lol"
+                            text="larder.lol"
+                            labelText="Deployed:" />
             </div>
 
             <div className="d-flex flex-wrap justify-content-center column-gap-3 align-items-center">

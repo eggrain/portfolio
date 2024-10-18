@@ -1,4 +1,5 @@
 import List from "./components/List";
+import DemoLink from "./components/DemoLink";
 
 import "./css/hero.css";
 
@@ -13,29 +14,34 @@ export default function Hero() {
                                         Kyle Rego
                                     </h1>
                                     <div className="mb-2 hero-card-text">
-                                        Software Developer (Web)
-                                    </div>
-                                    <div className="d-flex justify-content-around">
-                                        <a href="mailto:regoky@outlook.com">Email</a>
-                                        <a href="https://www.linkedin.com/in/kyle-rego-117b25139/">LinkedIn</a>
+                                        Software Developer
                                     </div>
                                 </div>
 
                                 <div className="hero-card-image">
                                     <img src="me.png" alt="Me" />
-                                </div> 
+                                </div>
+
+                                <div className="d-flex flex-column justify-content-around row-gap-1">
+                                    <DemoLink href="mailto:regoky@outlook.com"
+                                                text="Email me" />
+                                    <DemoLink href="https://www.linkedin.com/in/kyle-rego-117b25139/"
+                                                text="LinkedIn" />
+                                </div>
                             </div>
 
                             <p className="text-center font-20px mt-0" style={{maxWidth: "720px"}}>
-                                <h2 className="border-bottom font-20px w-fit d-inline">Portfolio Objective: </h2>
+                                <h2 className="border-bottom font-20px w-fit d-inline">Portfolio Objective (achieved!): </h2>
                                 to be hired in a software developer, support engineer, or other technical position to grow as an IT professional.
                             </p>
                             
 
                             <div className="d-flex flex-wrap align-items-start justify-content-around column-gap-3 row-gap-1 mb-4">
-                                <List heading={"Languages"} items={["Java (learning)", "C#", "JavaScript", "Ruby"]} />
+                                <List heading={"Languages"} items={["Java (learning)", ".NET C#", "JavaScript", "TypeScript", "Ruby"]} />
 
-                                <List heading={"Frameworks and libraries"} items={["Spring Boot (learning)", "ASP.NET Core", "React", "Blazor", "Ruby on Rails"]} />
+                                <List heading={"Frameworks"} items={["Spring Boot (learning)", "ASP.NET Core", "Blazor", "Ruby on Rails"]} />
+
+                                <List heading={"Libraries"} items={["React", "Entity framework core", "ASP.NET Core Identity"]} />
 
                                 <List heading={"Databases"} items={["SQLite", "PostgreSQL"]} />
 
