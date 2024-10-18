@@ -7,7 +7,7 @@ export default function Hero() {
     return <section id="hero" className="d-flex justify-content-center align-items-center">
                 <div className="section-card">
                         <div className="d-flex flex-column align-items-center column-gap-1">
-                            <div className="hero-card d-flex flex-wrap-reverse justify-content-center column-gap-3 align-items-center">
+                            <div className="hero-card d-flex flex-wrap justify-content-center row-gap-1 column-gap-3 align-items-center">
 
                                 <div>
                                     <h1 className="mb-2 hero-card-heading">
@@ -22,7 +22,7 @@ export default function Hero() {
                                     <img src="me.png" alt="Me" />
                                 </div>
 
-                                <div className="d-flex flex-column justify-content-around row-gap-1">
+                                <div className="d-flex flex-wrap justify-content-around column-gap-1 row-gap-1">
                                     <DemoLink href="mailto:regoky@outlook.com"
                                                 text="Email me" />
                                     <DemoLink href="https://www.linkedin.com/in/kyle-rego-117b25139/"
@@ -41,7 +41,7 @@ export default function Hero() {
 
                                 <List heading={"Frameworks"} items={["Spring Boot (learning)", "ASP.NET Core", "Blazor", "Ruby on Rails"]} />
 
-                                <List heading={"Libraries"} items={["React", "Entity framework core", "ASP.NET Core Identity"]} />
+                                <List heading={"Libraries"} items={["React", "Entity Framework Core", "ASP.NET Core Identity"]} />
 
                                 <List heading={"Databases"} items={["SQLite", "PostgreSQL"]} />
 
