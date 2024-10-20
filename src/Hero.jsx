@@ -31,7 +31,7 @@ export default function Hero() {
                             </div>
 
                             <p className="text-center font-20px mt-0" style={{maxWidth: "720px"}}>
-                                <h2 className="border-bottom font-20px w-fit d-inline">Portfolio Objective (achieved!): </h2>
+                                <h2 className="border-bottom font-20px w-fit d-inline">Portfolio Objective ✅ (achieved! 🥳): </h2>
                                 to be hired in a software developer, support engineer, or other technical position to grow as an IT professional.
                             </p>
                             
