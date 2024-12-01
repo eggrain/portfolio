@@ -57,7 +57,7 @@ export default function Hero() {
 
                                 <List heading={"Databases"} items={["SQLite", "PostgreSQL"]} />
 
-                                <List heading={"Tools"} items={["Git", "Visual Studio Code"]} />
+                                <List heading={"Tools"} items={["Git", "Visual Studio Code", "Selenium WebDriver"]} />
 
                                 <List heading={"Operating Systems"} items={["Windows", "Linux"]} />
                             </div>

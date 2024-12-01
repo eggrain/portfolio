@@ -18,7 +18,7 @@ export default function Larder() {
                         Larder is a React and ASP.NET Core web app for taking inventory of foods and ingredients.
                     </p>
                     <p>
-                        My main motivation in developing Larder is to better understand enterprise design patterns (e.g. controller-service-repository, data transfer objects).
+                        My main motivation in developing Larder is to better understand enterprise design patterns (e.g. controller-service-repository, data transfer objects, implications for unit testing).
                     </p>
                 </div>
 

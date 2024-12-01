@@ -62,4 +62,8 @@
     .sm\:flex-row {
         flex-direction: row;
     }
+
+    .sm\:justify-content-start {
+        justify-content: start;
+    };
 }
