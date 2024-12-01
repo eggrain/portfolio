@@ -15,10 +15,9 @@ function App() {
         <Menu />
 
         <div className="App" style={{width: "100%", maxWidth: "100vw"}}>
-   
             <Hero />
-            <AnkiBooks />
             <Larder />
+            <AnkiBooks />
             <Blog />
         </div>
     </>;

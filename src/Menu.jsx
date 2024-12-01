@@ -6,11 +6,10 @@ export default function Menu() {
         <nav>
             <ol>
                 <li><a href="#hero">Kyle Rego</a></li>
-                <li><a href="#ruby-ankibooks">Anki Books</a></li>
                 <li><a href="#larder">Larder</a></li>
+                <li><a href="#ruby-ankibooks">Anki Books</a></li>
                 <li><a href="#blog">Blog</a></li>
             </ol>
-            
         </nav>
     </div>;
 }
