@@ -22,7 +22,7 @@ export default function Hero() {
                                     <img src="me.png" alt="Me" />
                                 </div>
 
-                                <div className="d-flex flex-column flex-wrap justify-content-around column-gap-1 row-gap-1">
+                                <div className="d-flex flex-column sm:flex-row flex-wrap justify-content-around column-gap-1 row-gap-1">
                                     <DemoLink href="mailto:regoky@outlook.com"
                                                 text="Email me" />
                                     <DemoLink href="https://www.linkedin.com/in/kyle-rego-117b25139/"
