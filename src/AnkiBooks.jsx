@@ -39,9 +39,9 @@ export default function AnkiBooks() {
             <div className="d-flex column-gap-3 align-items-center justify-content-start overflow-x-scroll">
                 <Screenie src={"ankibooks-screenshot-1.png"} alt={"Example of an Anki Books article, one with some of my notes on the Ruby book 'Service-Oriented Design.' Articles have one long text and many notes on the right side which can be basic notes or cloze notes. The notes can be inserted at any ordinal position and reordered with the HTML drag and drop API."} />
 
-                <Screenie src={"ankibooks-screenshot-2.png"} alt={"Using the Anki Books article editor. This was developed using the Trix editor/Action Text in Rails; I added the H2-H6 heading buttons and syntax highlighting with code blocks."} />
+                <Screenie src={"ankibooks-screenshot-2.png"} alt={"Using the Anki Books article editor. This was developed using the Trix editor/Action Text in Rails; I added the H2-H6 heading buttons to the toolbar by configuring Trix and making changes to the DOM in a Stimulus controller."} />
 
-                <Screenie src={"ankibooks-screenshot-3.png"} alt={"The Anki Books books tree."} />
+                <Screenie src={"ankibooks-screenshot-3.png"} alt={"The Anki Books books tree; I think this UI design is one of the weak points of the application."} />
             </div>
             
         </div>
