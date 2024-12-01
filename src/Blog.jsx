@@ -14,7 +14,7 @@ export default function Blog() {
                     </div>
 
                     <div className="d-flex flex-wrap justify-content-center column-gap-3 align-items-center">
-                        <div className="flex-grow-1">
+                        <div className="flex-grow-1" style={{minWidth: "250px"}}>
                             <p>
                                 For a few years now I have had a blog. I enjoy writing and blogging and I think it's a good way to contribute to the larger community (including future me).
                             </p>

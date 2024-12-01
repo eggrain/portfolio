@@ -2,7 +2,7 @@ import List from "./components/List";
 import DemoLink from "./components/DemoLink";
 
 export default function Larder() {
-    return <section id="larder" className="d-flex justify-content-center align-items-center">
+    return <section id="larder" className="d-flex flex-wrap column-gap-3 justify-content-center align-items-center">
         <div className="section-card">
             <div className="mb-4 d-flex flex-wrap justify-content-center align-items-center column-gap-3 row-gap-1">
                 <h2 className="font-42px">Larder</h2>
@@ -13,7 +13,7 @@ export default function Larder() {
             </div>
 
             <div className="d-flex flex-wrap justify-content-center column-gap-3 align-items-center">
-                <div className="flex-grow-1">
+                <div className="flex-grow-1" style={{minWidth: "250px"}}>
                     <p>
                         Larder is a React and ASP.NET Core web app for taking inventory of foods and ingredients.
                     </p>
