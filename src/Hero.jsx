@@ -25,10 +25,9 @@ export default function Hero() {
                                 <div className="d-flex flex-column sm:flex-row flex-wrap justify-content-around column-gap-1 row-gap-1">
                                     <DemoLink href="mailto:regoky@outlook.com"
                                                 text="Email me" />
-                                    <DemoLink href="https://www.linkedin.com/in/kyle-rego-117b25139/"
-                                                text="LinkedIn" />
+        
                                     <DemoLink href="https://www.github.com/kylerego"
-                                                text="GitHub" />
+                                                text="My GitHub" />
                                 </div>
                             </div>
 
@@ -37,7 +36,7 @@ export default function Hero() {
                                     Hi there! I'm Kyle Rego, a self-taught software developer on a quest to write great code.
                                 </p>
                                 <p>
-                                    In November 2024 I moved to Washington to pursue new opportunities in tech and a fresh start. Right now, I'm living in an Airbnb and working part-time at UPS.
+                                    In November 2024 I moved to Washington to pursue new opportunities in tech and a fresh start. Right now, I'm living in an Airbnb and working part-time at a UPS warehouse moving packages (honestly a good job).
                                 </p>
                                 <p>
                                     I bring persistence, adaptability, and a hunger to learn to every challenge I take on. Whether it's designing complex systems, solving real-world problems, or creating interactive applications, I'm ready to bring my experience, drive, and creativity to your team.
@@ -46,7 +45,6 @@ export default function Hero() {
                                     Let's connect and see how I can help!
                                 </p>
                             </div>
-                            
 
                             <div className="d-flex flex-wrap align-items-start justify-content-around column-gap-3 row-gap-1 mb-4">
                                 <List heading={"Languages"} items={["C#", "JavaScript", "Ruby"]} />
