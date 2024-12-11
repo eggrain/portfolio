@@ -18,11 +18,11 @@ export default function Larder() {
                         Larder is a React and ASP.NET Core web app for taking inventory of foods and ingredients.
                     </p>
                     <p>
-                        My main motivation in developing Larder is to better understand enterprise design patterns (e.g. controller-service-repository, data transfer objects, implications for unit testing) and get practice with React, TypeScript, ASP.NET Core, and .NET Selenium WebDriver.
+                        My main motivation in developing Larder is to better understand enterprise design patterns (e.g. controller-service-repository, data transfer objects, implications for unit testing).
                     </p>
                 </div>
 
-                <List heading={"Gained experience with"} items={["React", "ASP.NET Core", "ASP.NET Core Identity", "Entity Framework Core", "Bootstrap", "SQLite", "GitHub Actions", "Controller-service-repository architecture"]} />
+                <List heading={"Gained experience with"} items={["React", "TypeScript", "ASP.NET Core", "ASP.NET Core Identity", "Entity Framework Core", "Bootstrap", "SQLite", "GitHub Actions", "Controller-service-repository architecture"]} />
             </div>
 
         </div>
