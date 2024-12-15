@@ -41,9 +41,6 @@ export default function Hero() {
                                 <p>
                                     I bring persistence, adaptability, and a hunger to learn to every challenge I take on. Whether it's designing complex systems, solving real-world problems, or creating interactive applications, I'm ready to bring my experience, drive, and creativity to your team.
                                 </p>
-                                <p>
-                                    Let's connect and see how I can help!
-                                </p>
                             </div>
 
                             <div className="d-flex flex-wrap align-items-start justify-content-around column-gap-3 row-gap-1 mb-4">
