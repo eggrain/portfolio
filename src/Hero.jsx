@@ -47,7 +47,7 @@ export default function Hero() {
                             <div className="d-flex flex-wrap align-items-start justify-content-around column-gap-3 row-gap-1 mb-4">
                                 <List heading={"Languages"} items={["C#", "JavaScript", "Ruby"]} />
 
-                                <List heading={"Frameworks"} items={["ASP.NET Core", "Blazor", "Ruby on Rails"]} />
+                                <List heading={"Frameworks"} items={["ASP.NET Core", "Ruby on Rails"]} />
 
                                 <List heading={"Libraries"} items={["React", "Entity Framework Core", "ASP.NET Core Identity"]} />
 

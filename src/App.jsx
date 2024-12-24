@@ -3,6 +3,7 @@ import AnkiBooks from "./AnkiBooks";
 import Larder from "./Larder";
 import Menu from "./Menu";
 import Blog from "./Blog";
+import Gob from "./Gob";
 
 import "./css/App.css";
 import "./css/hero.css";
@@ -19,6 +20,7 @@ function App() {
             <Larder />
             <AnkiBooks />
             <Blog />
+            <Gob />
         </div>
     </>;
 }

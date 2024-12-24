@@ -9,6 +9,7 @@ export default function Menu() {
                 <li><a href="#larder">Larder</a></li>
                 <li><a href="#ruby-ankibooks">Anki Books</a></li>
                 <li><a href="#blog">Blog</a></li>
+                <li><a href="#gob-guides">Gob Guides</a></li>
             </ol>
         </nav>
     </div>;
