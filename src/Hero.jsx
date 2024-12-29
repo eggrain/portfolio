@@ -5,9 +5,9 @@ import "./css/hero.css";
 
 export default function Hero() {
     return <section id="hero" className="d-flex justify-content-center align-items-center">
-                <div className="section-card">
+                <div id="hero-card">
                         <div className="d-flex flex-column align-items-center column-gap-1">
-                            <div className="hero-card d-flex flex-wrap justify-content-center row-gap-1 column-gap-3 align-items-center">
+                            <div className="d-flex flex-wrap justify-content-center row-gap-1 column-gap-3 align-items-center">
 
                                 <div>
                                     <h1 className="mb-2 hero-card-heading">
@@ -22,7 +22,7 @@ export default function Hero() {
                                     <img src="me_at_ups_cornerstone.jpg" alt="Me" />
                                 </div>
 
-                                <div className="d-flex flex-column sm:flex-row flex-wrap justify-content-around column-gap-3 row-gap-1">
+                                <div className="d-flex flex-column justify-content-around column-gap-3 row-gap-1">
                                     <DemoLink href="mailto:regoky@outlook.com"
                                                 text="Email me" />
         

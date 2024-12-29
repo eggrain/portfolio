@@ -1,7 +1,14 @@
-.hero-card {
-    font-size: 16px;
+#hero-card {
+    background-color: #fff;
+    padding: 40px 20px;
+    border-radius: 10px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    width: 100%;
+    position: relative;
+    opacity: .9;
+    z-index: 2;
     text-align: center;
-    padding: 1rem;
+    max-width: 810px;
 }
 
 .hero-card-heading {
@@ -17,4 +24,8 @@
 .hero-card-list {
     padding: 0;
     list-style-type: disc;
+}
+
+section#hero {
+    background-image: url("../inside_ups.jpg");
 }
