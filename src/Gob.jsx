@@ -11,6 +11,12 @@ export default function Gob() {
                         
                     </div>
 
+                    <div>
+                        <p>
+                            My biggest hobby other than programming is Old School Runescape.
+                        </p>
+                    </div>
+
                     
                 </div>
 

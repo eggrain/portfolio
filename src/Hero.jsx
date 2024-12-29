@@ -19,10 +19,10 @@ export default function Hero() {
                                 </div>
 
                                 <div className="hero-card-image">
-                                    <img src="me.png" alt="Me" />
+                                    <img src="me_at_ups_cornerstone.jpg" alt="Me" />
                                 </div>
 
-                                <div className="d-flex flex-column sm:flex-row flex-wrap justify-content-around column-gap-1 row-gap-1">
+                                <div className="d-flex flex-column sm:flex-row flex-wrap justify-content-around column-gap-3 row-gap-1">
                                     <DemoLink href="mailto:regoky@outlook.com"
                                                 text="Email me" />
         
@@ -36,7 +36,7 @@ export default function Hero() {
                                     Hi there! I'm Kyle Rego, a self-taught software developer on a quest to write great code.
                                 </p>
                                 <p>
-                                    In November 2024 I moved to Washington to pursue new opportunities in tech and a fresh start. I'm working part-time at a UPS warehouse moving packages (a good job) and developing Anki Books with Rails again.
+                                    In November 2024 I moved to Washington to pursue new opportunities in tech and a fresh start. I'm working part-time at a UPS warehouse moving packages (a good job) and developing, including the projects in this portfolio.
                                 </p>
                                 <p>
                                     I bring persistence, adaptability, and a hunger to learn to every challenge I take on. Whether it's designing complex systems, solving real-world problems, or creating interactive applications, I'm ready to bring my experience, drive, and creativity to your team.
