@@ -5,7 +5,7 @@ import "./css/hero.css";
 
 export default function Hero() {
     return <section id="hero" className="d-flex justify-content-center align-items-center">
-                <div id="hero-card">
+                <div class="card">
                         <div className="d-flex flex-column align-items-center column-gap-1">
                             <div className="d-flex flex-wrap justify-content-center row-gap-1 column-gap-3 align-items-center">
 
@@ -33,10 +33,10 @@ export default function Hero() {
 
                             <div className="text-center font-20px" style={{maxWidth: "720px"}}>  
                                 <p>
-                                    Hi there! I'm Kyle Rego, a self-taught software developer on a quest to write great code.
+                                    Hi there! I'm Kyle Rego, a self-taught software developer on a quest to create great software.
                                 </p>
                                 <p>
-                                    In November 2024 I moved to Washington to pursue new opportunities in tech and a fresh start. I'm working part-time at a UPS warehouse moving packages (a good job) and developing, including the projects in this portfolio.
+                                    In November 2024 I moved to Washington to pursue new opportunities in tech and a fresh start. I'm working moving packages at a UPS warehouse moving packages (a good part-time job) and developing the projects in this portfolio.
                                 </p>
                                 <p>
                                     I bring persistence, adaptability, and a hunger to learn to every challenge I take on. Whether it's designing complex systems, solving real-world problems, or creating interactive applications, I'm ready to bring my experience, drive, and creativity to your team.

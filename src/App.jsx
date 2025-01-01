@@ -10,6 +10,7 @@ import "./css/hero.css";
 import "./css/utility.css";
 import "./css/flex.css";
 import "./css/fonts.css";
+import "./css/images_setup.css";
 
 function App() {
     return <>

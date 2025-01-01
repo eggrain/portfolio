@@ -4,7 +4,7 @@
 
 .App {
     background-color: var(--app-background);
-    padding-bottom: 8rem;
+    padding-bottom: 0;
 }
 
 .demo-link {
@@ -37,6 +37,10 @@ p {
     line-height: 1.5;
 }
 
+ol, ul {
+    text-align: left;
+}
+
 a:hover {
     color: var(--link-hover-color);
 }
@@ -47,7 +51,20 @@ section {
 }
 
 .card {
-   background-color: var(--card-background-color); 
+    background-color: #fff;
+    padding: 40px 20px;
+    border-radius: 10px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    width: 100%;
+    position: relative;
+    opacity: .96;
+    z-index: 2;
+    text-align: center;
+    max-width: 810px;
+}
+
+.card-sm {
+    padding: 15px 20px;
 }
 
 @media (max-width: 480px) {

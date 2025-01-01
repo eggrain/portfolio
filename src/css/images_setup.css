@@ -1,0 +1,12 @@
+section#gob-guides {
+    background: url("../inside_sote_library.png");
+}
+
+section#blog {
+    background: url("../github_actions_site.png");
+}
+
+section#larder {
+    background: url("../nutrition_label_black_beans.jpg");
+    opacity: 90%;
+}

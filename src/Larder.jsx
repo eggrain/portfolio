@@ -3,7 +3,7 @@ import DemoLink from "./components/DemoLink";
 
 export default function Larder() {
     return <section id="larder" className="d-flex flex-wrap column-gap-3 justify-content-center align-items-center">
-        <div className="section-card">
+        <div className="card">
             <div className="mb-4 d-flex flex-wrap justify-content-center align-items-center column-gap-3 row-gap-1">
                 <h2 className="font-42px">Larder</h2>
 
