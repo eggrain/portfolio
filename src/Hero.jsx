@@ -36,7 +36,7 @@ export default function Hero() {
                                     Hi there! I'm Kyle Rego, a self-taught software developer on a quest to create great software.
                                 </p>
                                 <p>
-                                    In November 2024 I moved to Washington to pursue new opportunities in tech and a fresh start. I'm working moving packages at a UPS warehouse moving packages (a good part-time job) and developing the projects in this portfolio.
+                                    In November 2024 I moved to Washington to pursue new opportunities in tech and a fresh start. I'm moving packages at a UPS warehouse (a good part-time job) and developing the projects in this portfolio.
                                 </p>
                                 <p>
                                     I bring persistence, adaptability, and a hunger to learn to every challenge I take on. Whether it's designing complex systems, solving real-world problems, or creating interactive applications, I'm ready to bring my experience, drive, and creativity to your team.
