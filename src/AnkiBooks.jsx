@@ -22,12 +22,12 @@ export default function AnkiBooks() {
                 <div className="flex-grow-1 min-w-50">
                     <p>
                         Anki Books is a Ruby on Rails web application for taking notes and creating flashcards.
-                        The most impressive technical feature is being able to export flashcards as an Anki *.apkg file created by a Ruby job that the desktop app Anki (not affiliated) can import.
-                        To accomplish that technical feat, and as part of the modular design of this app, I developed a Ruby gem called Anki Record which provides a Ruby API for creating and updating Anki deck package files which are zipped SQLite databases.
+                        The most impressive technical feature is being able to export Anki deck package files (*.apkg files) created by a Ruby job that the desktop app Anki (not affiliated) can import.
+                        To accomplish that technical feat, and as part of the modular design of this app, I developed a Ruby gem called Anki Record which provides a Ruby API for creating and updating *.apkg files, which are zipped SQLite databases.
                     </p>    
                 </div>
 
-                <List heading={"Gained experience with"} items={["Ruby on Rails 7", "PostgreSQL", "Hotwire", "Selenium WebDriver", "Import maps", "Cascade Layers", "Bootstrap", "Ruby gems", "SQLite"]} />
+                <List heading={"Gained experience with"} items={["Ruby on Rails 7", "Hotwire", "Import maps", "RSpec", "Cucumber", "Selenium WebDriver", "Bootstrap", "PostgreSQL", "SQLite", "Ruby gems"]} />
             </div>
 
             <div className="d-flex column-gap-3 align-items-center justify-content-start overflow-x-scroll">
