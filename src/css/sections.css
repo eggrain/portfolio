@@ -6,6 +6,18 @@ section#blog {
     background: url("../github_actions_site.png");
 }
 
+section#blog .card {
+    background-color: #ffb0e3;
+}
+
+section#larder .card {
+    background-color: #a3ffae;
+}
+
+section#gob-guides .card {
+    background-color: azure;
+}
+
 section#larder {
     background: url("../nutrition_label_black_beans.jpg");
     opacity: 90%;

@@ -2,13 +2,11 @@
 
 .menu {
     box-sizing: border-box;
-    background-color: var(--menu-background);
-    bottom: 0;
-    left: 0;
+    bottom: 1.5rem;
+    left: 1.5rem;
     position: fixed;
     width: fit-content;
-    margin: 1.5rem;
-    z-index: 11;
+    z-index: 10;
 }
 
 .menu * {

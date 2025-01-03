@@ -9,7 +9,7 @@ export default function Larder() {
 
                 <DemoLink href="https://larder.lol"
                             text="larder.lol"
-                            labelText="Deployed:" />
+                            labelText="Deployed app:" />
             </div>
 
             <div className="d-flex flex-wrap justify-content-center column-gap-3 align-items-center">
