@@ -34,7 +34,7 @@ export default function Hero() {
 
                             <div className="text-center font-20px" style={{maxWidth: "720px"}}>  
                                 <p>
-                                    <span style={{fontSize: "28px"}}>Hi there! I'm </span>Kyle Rego, a self-taught software developer on a quest to create great software.
+                                    <span style={{fontSize: "28px"}}>Hi there!</span> I'm Kyle Rego, a self-taught software developer on a quest to create great software.
                                 </p>
                                 <p>
                                     I moved to Washington in November, 2024 to pursue new opportunities in tech and a fresh start. I'm moving packages at a UPS warehouse (a good part-time job) and developing the projects in this portfolio.
@@ -45,7 +45,7 @@ export default function Hero() {
                      
                             </div>
 
-                            <div className="d-flex flex-wrap align-items-center justify-content-around column-gap-1 row-gap-3 mb-4">
+                            <div className="d-flex flex-wrap align-items-start justify-content-around column-gap-1 row-gap-3 mb-4">
                                 <List heading={"Languages"} items={["C#", "JavaScript", "Ruby"]} />
 
                                 <List heading={"Frameworks"} items={["ASP.NET Core", "Ruby on Rails"]} />
