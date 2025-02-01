@@ -10,7 +10,7 @@
     "portfolio": "file:",
     "react": "^18.3.1",
     "react-dom": "^18.3.1",
-    "vite": "^5.5",
+    "vite": "^5.4",
     "web-vitals": "^2.1.4"
   },
   "scripts": {
