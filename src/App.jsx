@@ -12,18 +12,16 @@ import "./css/flex.css";
 import "./css/fonts.css";
 import "./css/sections.css";
 
-function App() {
+export default function App() {
     return <>
         <Menu />
 
         <div className="App" style={{width: "100%", maxWidth: "100vw"}}>
             <Hero />
+            <AnkiBooks />
             <Blog />
             <Larder />
-            <AnkiBooks />
             <Gob />
         </div>
     </>;
 }
-
-export default App;

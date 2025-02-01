@@ -4,7 +4,9 @@ export default function List({heading, items}) {
     })
 
     return <div className="font-18px" style={{maxWidth: "", textWrap: "wrap"}}>
-            <h4 className="mb-2 font-20px border-bottom">{heading}:</h4>
+            <h4 className="text-start mb-2 font-20px border-bottom">
+                {heading}:
+            </h4>
             <ul>
                 {listItems}
             </ul>
