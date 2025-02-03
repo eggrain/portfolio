@@ -17,7 +17,7 @@ export default function Gob() {
                             I mostly play this MMORPG as an "Ultimate Iron", which is an account type that restricts both trading with other players and banking one's items. 
                         </p>
                         <p>
-                           This Java game which I have played since I was a child is today one of my biggest inspirations to keep learning and practicing software development.
+                           This Java game which I have played since I was a kid is today one of my biggest inspirations to keep learning and practicing software development.
                         </p>
                     </div>
 
