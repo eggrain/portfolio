@@ -36,12 +36,12 @@ export default function Hero() {
                                 <p>
                                     <span style={{fontSize: "28px"}}>Hi there!</span> I'm Kyle Rego, a self-taught software developer on a quest to create great software.
                                 </p>
-                                <p>
+                                {/* <p>
                                     I moved to Washington in November, 2024 to pursue new opportunities in tech and a fresh start. I'm moving packages at a UPS warehouse (a good part-time job) and developing the projects in this portfolio.
                                 </p>
                                 <p>
                                     I bring persistence, adaptability, and a hunger to learn to every challenge I take on. Whether it's designing complex systems, solving real-world problems, or creating interactive applications, I'm ready to bring my experience, drive, and creativity to your team.
-                                </p>
+                                </p> */}
                      
                             </div>
 
