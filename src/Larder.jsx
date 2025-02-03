@@ -15,10 +15,13 @@ export default function Larder() {
             <div className="d-flex flex-wrap justify-content-center column-gap-3 align-items-center">
                 <div className="flex-grow-1" style={{minWidth: "250px"}}>
                     <p>
-                        Larder is a React and ASP.NET Core web app for taking inventory of foods and ingredients.
+                        Larder is a React and ASP.NET Core inventory-taking app with a focus on foods, cooking, and nutrition.
                     </p>
                     <p>
-                        My main motivation in developing Larder is to better understand enterprise design patterns (e.g. controller-service-repository, data transfer objects, implications for unit testing).
+                        One of my motivations with this project was to figure out the implications of some popular enterprise design patterns (implications of controller-service-repository architecture for unit testing and OO design).
+                    </p>
+                    <p>
+                        Additionally, the design of items in Larder evolved toward an entity-component architecture after it was initially inheritance based.
                     </p>
                 </div>
 

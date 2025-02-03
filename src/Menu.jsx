@@ -3,7 +3,7 @@ import "./css/menu.css";
 export default function Menu() {
     return <div className="menu">
         <div className="card card-sm">
-            <h2 className="mb-4">Portfolio Contents:</h2>
+            <h2 className="mb-2">Portfolio Contents:</h2>
             <nav>
                 <ol>
                     <li><a href="#hero">Kyle Rego</a></li>
