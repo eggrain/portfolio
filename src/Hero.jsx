@@ -38,26 +38,19 @@ export default function Hero() {
                             <div className="text-center font-20px" style={{maxWidth: "720px"}}>  
                                 <p>
                                     <span style={{fontSize: "28px"}}>Hi there!</span> I'm Kyle Rego, a self-taught software developer on a quest to create great software.
-                                    I'm happy to be starting a new full-time job soon (in sales and marketing) and a little sad to be moving on from my current part-time job at UPS in the Port of Tacoma.
-                                    My long-term goal is to land a company software engineering job. - February 3, 2025
+                                    My favorite food is pizza, my favorite places are Planet Fitness, public libraries, and UPS in the Port of Tacoma (where I work), and my favorite programming language is C#. My long-term goal is to land a company software engineering job. - February 11, 2025
                                 </p>
-                                {/* <p>
-                                    I moved to Washington in November, 2024 to pursue new opportunities in tech and a fresh start. I'm moving packages at a UPS warehouse (a good part-time job) and developing the projects in this portfolio.
-                                </p>
-                                <p>
-                                    I bring persistence, adaptability, and a hunger to learn to every challenge I take on. Whether it's designing complex systems, solving real-world problems, or creating interactive applications, I'm ready to bring my experience, drive, and creativity to your team.
-                                </p> */}
                      
                             </div>
 
                             <div className="d-flex flex-wrap align-items-start justify-content-around column-gap-1 row-gap-1 mb-4">
                                 <List heading={"Languages"} items={["C#", "JavaScript", "Ruby"]} />
 
-                                <List heading={"Frameworks"} items={["ASP.NET Core", "Ruby on Rails"]} />
+                                <List heading={"Frameworks"} items={["ASP.NET Core", "Ruby on Rails", "Bootstrap"]} />
 
                                 <List heading={"Libraries"} items={["React", "Entity Framework Core", "ASP.NET Core Identity"]} />
 
-                                <List heading={"Tools"} items={["Git", "Visual Studio Code", "Selenium WebDriver"]} />
+                                <List heading={"Tools"} items={["Git", "VS Code", "Selenium WebDriver"]} />
 
                                 <List heading={"Databases"} items={["SQLite", "PostgreSQL"]} />
 
