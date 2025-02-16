@@ -4,6 +4,8 @@ import DemoLink from "./DemoLink";
 export default function ScrollingLinks({ links }) {
     const containerRef = useRef(null);
 
+    links = links.concat(links);
+
     useEffect(() => {
         if (!containerRef.current) return;
         const container = containerRef.current;
