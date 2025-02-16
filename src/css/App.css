@@ -96,3 +96,7 @@ h1, h2, ul, ol, h2, h3, h4 {
     margin: 0;
     padding: 0;
 }
+
+.whitespace-nowrap {
+    white-space: nowrap;
+}

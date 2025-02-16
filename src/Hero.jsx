@@ -43,7 +43,9 @@ export default function Hero() {
                      
                             </div>
 
-                            <div className="d-flex flex-wrap align-items-start justify-content-around column-gap-1 row-gap-1 mb-4">
+                            
+
+                            {/* <div className="d-flex flex-wrap align-items-start justify-content-around column-gap-1 row-gap-1 mb-4">
                                 <List heading={"Languages"} items={["C#", "JavaScript", "Ruby"]} />
 
                                 <List heading={"Frameworks"} items={["ASP.NET Core", "Ruby on Rails", "Bootstrap"]} />
@@ -55,7 +57,7 @@ export default function Hero() {
                                 <List heading={"Databases"} items={["SQLite", "PostgreSQL"]} />
 
                                 <List heading={"Operating Systems"} items={["Windows", "Linux"]} />
-                            </div>
+                            </div> */}
                         </div>
                 </div>
         </section>;
