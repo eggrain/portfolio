@@ -1,21 +1,16 @@
-import List from "./components/List"
 import DemoLink from "./components/DemoLink";
 import ScrollingLinks from "./components/ScrollingLinks";
 
 export default function AnkiBooks() {
-    const ankiBooksPosts = [
+    const allAnkiBooksPosts = [
         ["Customizing the Trix editor", "https://kylerego.github.io/customizing-the-trix-editor"],
-        ["Method missing in Anki Record", "https://kylerego.github.io/anki_record_method_missing"]
-    ];
-
-    const blazorAnkiBooksPosts = [
+        ["Method missing in Anki Record", "https://kylerego.github.io/anki_record_method_missing"],
         ["Screenshot of Blazor Anki Books article", "https://kylerego.github.io/what-ankibooks-looks-like-part-two"],
         ["Resource based authorization in ASP.NET Core", "https://kylerego.github.io/asp-net-core-resourced-based-authorization-example"],
         ["Example of dependency injection in Blazor Web App", "https://kylerego.github.io/prerendering-razor-components-that-request-data-in-a-blazor-web-app"],
         ["Serializing child classes in .NET", "https://kylerego.github.io/serializing-derived-class-objects-net"],
         ["First attempt at Clean Architecture", "https://kylerego.github.io/ankibooks-codereview-1"]
     ];
-
 
     return <section id="ruby-ankibooks" className="d-flex justify-content-center align-items-center">
         <div className="card">
@@ -46,16 +41,10 @@ export default function AnkiBooks() {
             </div>
 
             <h3 className="my-4 font-24px">
-                Blog posts about Anki Books
+                Blog posts about Anki Books and Blazor spike
             </h3>
 
-            <ScrollingLinks links={ankiBooksPosts} />
-
-            <h3 className="mt-2 mb-4 font-24px">
-                Blog posts about Blazor/ASP.NET Core Anki Books spike
-            </h3>
-
-            <ScrollingLinks links={blazorAnkiBooksPosts} />
+            <ScrollingLinks links={allAnkiBooksPosts} />
 
         </div>
     </section>;
