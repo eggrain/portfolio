@@ -39,6 +39,11 @@ export default function Larder() {
                 <DemoLink text="Mixing object initialization and constructor syntax" href="https://kylerego.github.io/ef-core-constructor-and-object-initialization-syntax" />
                 <DemoLink text="Service Locator Pattern" href="https://kylerego.github.io/service-locator-pattern-derived-services" />
                 <DemoLink text="Controller, service, and repository layers" href="https://kylerego.github.io/comparison-of-ruby-on-rails-asp-net-core-design" />
+                <DemoLink text="Resource based authorization with polymorphic UserId (ASP.NET Core Identity)" href="https://kylerego.github.io/resource-based-authorization-with-polymorp-user-id" />
+                <DemoLink text="Mocking an HTTP user" href="https://kylerego.github.io/mocking-http-user" />
+                <DemoLink text="Fixing a data bug" href="https://kylerego.github.io/fixing-a-data-bug" />
+                <DemoLink text="React context to track authentication state" href="https://kylerego.github.io/react-context-to-track-client-side-authentication-state" />
+                <DemoLink text="CI/CD notes" href="https://kylerego.github.io/notes-on-larder-ci-cd-setup" />
             </div>
         </div>
     </section>;

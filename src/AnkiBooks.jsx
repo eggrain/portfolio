@@ -31,14 +31,26 @@ export default function AnkiBooks() {
                 <List heading={"Gained experience with"} items={["Ruby on Rails 7", "Hotwire", "Import maps", "RSpec", "Cucumber", "Selenium WebDriver", "Bootstrap", "PostgreSQL", "SQLite", "Ruby gems"]} />
             </div>
 
-            {/* <div className="d-flex column-gap-3 align-items-center justify-content-start overflow-x-scroll">
-                <Screenie src={"ankibooks-screenshot-1.png"} alt={"Example of an Anki Books article, one with some of my notes on the Ruby book 'Service-Oriented Design.' Articles have one long text and many notes on the right side which can be basic notes or cloze notes. The notes can be inserted at any ordinal position and reordered with the HTML drag and drop API."} />
+            <h3 className="my-4 font-24px">
+                Blog posts about Anki Books
+            </h3>
 
-                <Screenie src={"ankibooks-screenshot-2.png"} alt={"Using the Anki Books article editor. This was developed using the Trix editor/Action Text in Rails; I added the H2-H6 heading buttons to the toolbar by configuring Trix and making changes to the DOM in a Stimulus controller."} />
+            <div className="my-4 d-flex column-gap-1 flex-wrap row-gap-1 justify-content-center">
+                <DemoLink text="Customizing the Trix editor" href="https://kylerego.github.io/customizing-the-trix-editor" />
+                <DemoLink text="Method missing in the Anki Record gem" href="https://kylerego.github.io/anki_record_method_missing" />
+            </div>
 
-                <Screenie src={"ankibooks-screenshot-3.png"} alt={"The Anki Books books tree; I think this UI design is one of the weak points of the application."} />
-            </div> */}
-            
+            <h3 className="mt-2 mb-4 font-24px">
+                Blog posts about Blazor/ASP.NET Core Anki Books spike
+            </h3>
+
+            <div className="d-flex column-gap-1 flex-wrap row-gap-1 justify-content-center">
+                <DemoLink text="Screenshot of Blazor Anki Books article" href="https://kylerego.github.io/what-ankibooks-looks-like-part-two" />
+                <DemoLink text="Resource based authorization in ASP.NET Core" href="https://kylerego.github.io/asp-net-core-resourced-based-authorization-example" />
+                <DemoLink text="Example of dependency injection in Blazor Web App" href="https://kylerego.github.io/prerendering-razor-components-that-request-data-in-a-blazor-web-app" />
+                <DemoLink text="Serializing child classes in .NET" href="https://kylerego.github.io/serializing-derived-class-objects-net" />
+                <DemoLink text="Frst attempt at Clean Architecture" href="https://kylerego.github.io/ankibooks-codereview-1" />
+            </div>
         </div>
     </section>;
 }
