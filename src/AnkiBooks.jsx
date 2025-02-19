@@ -1,4 +1,5 @@
 import DemoLink from "./components/DemoLink";
+import LinksGallery from "./components/LinksDemo";
 import ScrollingLinks from "./components/ScrollingLinks";
 
 export default function AnkiBooks() {
@@ -15,7 +16,7 @@ export default function AnkiBooks() {
     return <section id="ruby-ankibooks" className="d-flex justify-content-center align-items-center">
         <div className="card">
             <div className="mb-4 d-flex flex-wrap justify-content-center align-items-center column-gap-3 row-gap-1">
-                <h2 className="font-42px">Anki Books</h2>
+                <h2 className="fs-1">Anki Books</h2>
 
                 <DemoLink href="https://ankibooks.io"
                             text="ankibooks.io"
@@ -36,15 +37,10 @@ export default function AnkiBooks() {
                         As part of the modular design of this app, I developed a Ruby gem called Anki Record which provides a Ruby API for creating and updating *.apkg files, which are zipped SQLite databases.
                     </p>    
                 </div>
-
-                {/* <List heading={"Gained experience with"} items={["Ruby on Rails 7", "Hotwire", "Import maps", "RSpec", "Cucumber", "Selenium WebDriver", "Bootstrap", "PostgreSQL", "SQLite", "Ruby gems"]} /> */}
             </div>
 
-            <h3 className="my-4 font-24px">
-                Blog posts about Anki Books and Blazor spike
-            </h3>
-
-            <ScrollingLinks links={allAnkiBooksPosts} />
+            <LinksGallery heading={"Blog posts about Anki Books and Blazor spike"}
+                links={allAnkiBooksPosts} />
 
         </div>
     </section>;

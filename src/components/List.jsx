@@ -3,8 +3,8 @@ export default function List({heading, items}) {
         return <li key={item}>{item}</li>
     })
 
-    return <div className="font-18px" style={{ textWrap: "wrap", wordBreak: "break-all", maxWidth: "214px"}}>
-            <h4 className="text-start mb-2 font-20px border-bottom">
+    return <div className="" style={{ textWrap: "wrap", wordBreak: "break-all", maxWidth: "214px"}}>
+            <h4 className="text-start mb-2 border-bottom">
                 {heading}:
             </h4>
             <ul>

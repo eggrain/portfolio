@@ -1,6 +1,5 @@
-import List from "./components/List";
 import DemoLink from "./components/DemoLink";
-import ScrollingLinks from "./components/ScrollingLinks";
+import LinksGallery from "./components/LinksDemo";
 
 export default function Larder() {
     const larderBlogs = [
@@ -20,7 +19,7 @@ export default function Larder() {
     return <section id="larder" className="d-flex flex-wrap column-gap-3 justify-content-center align-items-center">
         <div className="card">
             <div className=" d-flex flex-wrap justify-content-center align-items-center column-gap-3 row-gap-1">
-                <h2 className="font-42px">Larder</h2>
+                <h2 className="fs-1">Larder</h2>
 
                 <DemoLink href="https://larder.lol"
                             text="larder.lol"
@@ -34,18 +33,14 @@ export default function Larder() {
                     </p>
                     <p>
                         One of my motivations with Larder was to work through the implications 
-                        of popular enterprise design patterns such as controller-service-repository architecture (especially after working on a Blazor/ASP.NET Core rewrite of Anki Books where I made a lot of mistakes implementing a "Clean Architecture").
+                        of popular enterprise design patterns such as controller-service-repository architecture on OO design and unit testing (especially after working on a Blazor/ASP.NET Core rewrite of Anki Books where I made a lot of design mistakes implementing a "Clean Architecture").
                     </p>
                 </div>
 
                 {/* <List heading={"Gained experience with"} items={["React", "TypeScript", "ASP.NET Core", "ASP.NET Core Identity", "Entity Framework Core", "Bootstrap", "SQLite", "GitHub Actions", "Controller-service-repository architecture"]} /> */}
             </div>
 
-            <h3 className="mb-4 font-24px">
-                Blog posts about Larder
-            </h3>
-
-            <ScrollingLinks links={larderBlogs} />
+            <LinksGallery heading={"Blog posts about Larder"} links={larderBlogs} />
         </div>
     </section>;
 }

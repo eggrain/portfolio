@@ -1,4 +1,5 @@
 import DemoLink from "./components/DemoLink";
+import LinksGallery from "./components/LinksDemo";
 import ScrollingLinks from "./components/ScrollingLinks";
 
 export default function Gob() {
@@ -11,7 +12,7 @@ export default function Gob() {
     return <section id="gob-guides" className="d-flex justify-content-center align-items-center">
                 <div className="card">
                     <div className="mb-4 d-flex flex-wrap justify-content-center align-items-center column-gap-3 row-gap-1">
-                        <h2 className="font-42px" style={{wordBreak: "break-all"}}>Lilgobslayerguides.NET</h2>
+                        <h2 className="fs-1" style={{wordBreak: "break-all"}}>Lilgobslayerguides.NET</h2>
                         
                         <DemoLink href="https://lilgobslayerguides.net"
                                             text="Gob Guides" />
@@ -28,11 +29,7 @@ export default function Gob() {
                         </p>
                     </div>
 
-                    <h3 className="mb-4 font-24px">
-                        Related technical blog posts
-                    </h3>
-
-                    <ScrollingLinks links={gobBlogPosts} />
+                    <LinksGallery heading={"Related technical blog posts"} links={gobBlogPosts} />
 
                 </div>
 
