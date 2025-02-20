@@ -6,7 +6,7 @@ import Blog from "./Blog";
 import Gob from "./Gob";
 
 import "./css/App.css";
-import "./css/hero.css";
+
 import "./css/utility.css";
 import "./css/flex.css";
 import "./css/fonts.css";

@@ -1,3 +1,7 @@
+section#hero {
+    background-image: url("../inside_ups.jpg");
+}
+
 section#gob-guides {
     background: url("../inside_sote_library.png");
 }
