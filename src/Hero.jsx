@@ -24,10 +24,10 @@ export default function Hero() {
                     <div className="text-center font-20px" style={{maxWidth: "720px"}}>  
                         <p>
                             <span style={{fontSize: "28px"}}>Hi there!</span> I'm Kyle Rego, a self-taught software developer on a quest to create great software (or become the best computer programmer I can be).
-                            My favorite food is pizza, my favorite places are Planet Fitness, public libraries, and UPS in the Port of Tacoma (where I work), and my favorite programming language is C#.
+                            My favorite food is pizza, my favorite places are Planet Fitness, public libraries, and UPS in the Port of Tacoma (where I currently work), and my favorite computer language is C#.
                         </p>
                         <p>   
-                            My current long-term goal is to land a company software engineering job. If you are in need of someone to fill a position like that, kindly <a href="mailto:regoky@outlook.com">email me</a>; I would love to help your team.
+                            My long-term goal is to land a company software engineering job; as a step toward that, I would like to get an entry-level IT support job right now. If you are in need of someone to fill a position like that in the Tacoma area, kindly <a href="mailto:regoky@outlook.com">email me</a>; I would love to help your team.
                         </p>
                     </div>
                 </div>

@@ -3,16 +3,17 @@ import LinksGallery from "./components/LinksDemo";
 
 export default function Larder() {
     const larderBlogs = [
+        ["Work on cooking a recipe in Larder", "https://kylerego.github.io/work-on-cooking-recipe-in-larder"],
         ["Builder Pattern in Larder", "https://kylerego.github.io/builder-pattern-in-larder"],
-        ["Mock repositories vs Moq", "https://kylerego.github.io/mock-repositories-vs-moq"],
-        ["Mixing object initialization and constructor syntax", "https://kylerego.github.io/ef-core-constructor-and-object-initialization-syntax"],
+        // ["Mock repositories vs Moq", "https://kylerego.github.io/mock-repositories-vs-moq"],
+        // ["Mixing object initialization and constructor syntax", "https://kylerego.github.io/ef-core-constructor-and-object-initialization-syntax"],
         ["Service Locator Pattern", "https://kylerego.github.io/service-locator-pattern-derived-services"],
         ["Controller-service-repository architecture", "https://kylerego.github.io/comparison-of-ruby-on-rails-asp-net-core-design"],
-        ["Resource-based authorization with polymorphic UserId", "https://kylerego.github.io/resource-based-authorization-with-polymorp-user-id"],
-        ["Mocking an HTTP user", "https://kylerego.github.io/mocking-http-user"],
-        ["Fixing a data bug", "https://kylerego.github.io/fixing-a-data-bug"],
-        ["React context to track authentication state", "https://kylerego.github.io/react-context-to-track-client-side-authentication-state"],
-        ["CI/CD notes", "https://kylerego.github.io/notes-on-larder-ci-cd-setup"]
+        // ["Resource-based authorization with polymorphic UserId", "https://kylerego.github.io/resource-based-authorization-with-polymorp-user-id"],
+        // ["Mocking an HTTP user", "https://kylerego.github.io/mocking-http-user"],
+        // ["Fixing a data bug", "https://kylerego.github.io/fixing-a-data-bug"],
+        // ["React context to track authentication state", "https://kylerego.github.io/react-context-to-track-client-side-authentication-state"],
+        // ["CI/CD notes", "https://kylerego.github.io/notes-on-larder-ci-cd-setup"]
     ];
 
 
