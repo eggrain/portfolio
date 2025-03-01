@@ -3,6 +3,7 @@ import LinksGallery from "./components/LinksDemo";
 
 export default function Larder() {
     const larderBlogs = [
+        ["ICrudServiceBase<TDto, TEntity> and ICrudRepositoryBase<TEntity>", "https://kylerego.github.io/icrudservicetdotentityandicrudrepositorytentity"],
         ["Work on cooking a recipe in Larder", "https://kylerego.github.io/work-on-cooking-recipe-in-larder"],
         ["Builder Pattern in Larder", "https://kylerego.github.io/builder-pattern-in-larder"],
         // ["Mock repositories vs Moq", "https://kylerego.github.io/mock-repositories-vs-moq"],
