@@ -34,7 +34,7 @@ export default function Larder() {
                         Larder is an inventory-taking app with a focus on foods and ingredients.
                     </p>
                     <p>
-                        I mainly work on Larder to get improve my understanding of ASP.NET Core, React, and enterprise design patterns like controller-service-repository-architecture (especially after working on a Blazor/ASP.NET Core rewrite of Anki Books where I made a lot of design mistakes implementing a "Clean Architecture").
+                        I mainly work on Larder to improve my understanding of ASP.NET Core, React, and enterprise design patterns like controller-service-repository-architecture (especially after working on a Blazor/ASP.NET Core rewrite of Anki Books where I made a lot of design mistakes implementing a "Clean Architecture").
                     </p>
                 </div>
 
