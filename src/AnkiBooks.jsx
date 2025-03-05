@@ -31,11 +31,13 @@ export default function AnkiBooks() {
             <div className="d-flex flex-wrap justify-content-center column-gap-3 align-items-center">
                 <div className="flex-grow-1 min-w-50">
                     <p>
-                        Anki Books is a flashcards and note-taking app that creates Anki deck package files (*.apkg files) from the user's data for download that the desktop app Anki (not affiliated) can import.
+                        Anki Books is an app that combines flashcards with online books; it is able to create Anki deck package files (*.apkg files which are zipped SQLite databases) for download that the desktop app Anki (not affiliated) can import, using Anki Record, a Ruby gem that I developed.
                     </p>
                     <p>
-                        As part of the modular design of this app, I developed a Ruby gem called Anki Record which provides a Ruby API for creating and updating *.apkg files, which are zipped SQLite databases.
-                    </p>    
+                        This idea of a collaborative platform for creating Anki flashcards, documented in the form of online books, is something I have worked on for many years. This Ruby on Rails version is the most complete so far; other versions used Laravel, Ruby on Rails, and Blazor/ASP.NET Core.
+  
+                    </p>
+
                 </div>
             </div>
 
