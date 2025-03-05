@@ -31,10 +31,10 @@ export default function Larder() {
             <div className="d-flex flex-wrap justify-content-center column-gap-3 align-items-center">
                 <div className="flex-grow-1" style={{minWidth: "250px"}}>
                     <p>
-                        Larder is an inventory-taking app with a focus on foods and ingredients.
+                        Larder is an inventory-taking app with a focus on foods and ingredients; it is my idea of an application that I would use to meticulously analyze the cost and nutrition of foods and ingredients as I buy, cook, and eat them.  
                     </p>
                     <p>
-                        I mainly work on Larder to improve my understanding of ASP.NET Core, React, and enterprise design patterns like controller-service-repository-architecture (especially after working on a Blazor/ASP.NET Core rewrite of Anki Books where I made a lot of design mistakes implementing a "Clean Architecture").
+                        This project has also been great for improving my understanding of ASP.NET Core, React, and enterprise design patterns like controller-service-repository-architecture (especially after working on a Blazor/ASP.NET Core rewrite of Anki Books where I made a lot of design mistakes implementing a "Clean Architecture").
                     </p>
                 </div>
 

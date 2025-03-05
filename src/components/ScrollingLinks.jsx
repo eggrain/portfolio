@@ -36,14 +36,7 @@ export default function ScrollingLinks({ links }) {
             style={{ scrollbarWidth: "none", msOverflowStyle: "none", overflow: "hidden" }}
         >
             {duplicatedLinks.map(([text, href], index) => (
-                <a
-                    key={index}
-                    href={href}
-                    target="_blank"
-                    rel="noopener noreferrer"
-                >
-                    <DemoLink text={text} href={href} />
-                </a>
+                <DemoLink text={text} href={href} key={index} />
             ))}
         </div>
     );
