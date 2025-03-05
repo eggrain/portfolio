@@ -5,9 +5,7 @@ export default function ScrollingLinks({ links }) {
     const containerRef = useRef(null);
     const scrollDirectionRef = useRef(1);
     const duplicatedLinks = useMemo(() => links.concat(links), [links]);
-    let baseScrollAmount = 0.8;
-    let zoomFactor = window.devicePixelRatio; // Detect zoom level
-    let scrollAmount = baseScrollAmount * zoomFactor; // Adjust scroll step size
+    const scrollAmount = 1.5;
 
     useEffect(() => {
         if (!containerRef.current) return;
