@@ -28,7 +28,7 @@ export default function Hero() {
                     </p>
 
                     <p>
-                        My long-term goal is to secure a software engineering role, and right now, I'm preparing to transition into IT as a stepping stone toward that goal. If you're hiring in the Tacoma area, feel free to <a href="mailto:regoky@outlook.com">reach out</a>—I'd love to contribute to your team!
+                        My long-term goal is to secure a software engineering role, and right now, I'm preparing to transition into IT as a stepping stone toward that goal. If you're hiring in the Tacoma area, feel free to <a href="mailto:regoky@outlook.com">reach out</a>—I'd love to help your team!
                     </p>
 
                 </div>
