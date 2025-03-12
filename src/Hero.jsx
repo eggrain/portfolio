@@ -7,18 +7,20 @@ export default function Hero() {
                                 Kyle Rego
                             </h1>
                             <div>
-                                Software developer
-                            </div>
-                            <div>
                                 Tacoma, Washington, USA
                             </div>
+                            <a href="https://kylerego.github.io/assets/kylerego_resume.pdf">
+                                Software Developer Resume
+                            </a>
                         </div>
 
                         <figure style={{margin: 0}}>
                             <div className="d-flex column-gap-1 align-items-center">
                                 <img src="me_at_ups_cornerstone.jpg" alt="Me at UPS"
                                 style={{width: "150px", height: "150px", borderRadius: "50%"}} />
-                                <figcaption>Me at UPS</figcaption>
+                                <figcaption>
+                                    Me at UPS
+                                </figcaption>
                             </div>
                         </figure>
                     </div>
