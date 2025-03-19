@@ -26,11 +26,11 @@ export default function Hero() {
                     </div>
 
                     <p>
-                        <span style={{ fontSize: "28px" }}>Hi there!</span> I'm Kyle Rego, a self-taught software developer on a quest to create great software. I love problem-solving, learning about new things, and contributing to the community.
+                        <span style={{ fontSize: "28px" }}>Hi there!</span> I'm Kyle Rego, a self-taught software developer on a quest to create great software. I like problem-solving, learning about new things, and contributing to the community.
                     </p>
 
                     <p>
-                        My long-term goal is to secure a software engineering role, and right now, I'm preparing to transition into IT as a stepping stone toward that goal. If you're hiring in the Tacoma area, feel free to <a href="mailto:regoky@outlook.com">reach out</a>—I'd love to help your team!
+                        Right now, I'm working at UPS while exploring different job opportunities to make ends meet. I'm open to various roles—whether in IT, technical support, or other fields—as I work toward returning to software development in the long run. If you’re hiring in the Tacoma area, feel free to <a href="mailto:regoky@outlook.com">reach out</a>—I’d love to contribute to your team!
                     </p>
 
                 </div>
