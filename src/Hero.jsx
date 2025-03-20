@@ -12,6 +12,9 @@ export default function Hero() {
                             <a href="https://kylerego.github.io/assets/kylerego_resume.pdf">
                                 Software Developer Resume
                             </a>
+                            <a href="https://kylerego.github.io/assets/kyle_jobs_resume.pdf">
+                                Jobs Resume
+                            </a>
                         </div>
 
                         <figure style={{margin: 0}}>
