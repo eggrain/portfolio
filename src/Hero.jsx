@@ -51,7 +51,7 @@ export default function Hero() {
              
                         I've positioned myself near Seattle, Washington as a step toward my long term goal of a career in software development.
 
-                        To that end, I am considering starting an MS in Computer Science soon, developing several software projects, and system administrating an Azure Linux machine to showcase them (excluding the blog).
+                        To that end, I am considering starting an MS in Computer Science soon, developing several software projects in this portfolio, and system administrating an Azure Linux machine to showcase them (excluding the blog).
                     </p>
              
 
