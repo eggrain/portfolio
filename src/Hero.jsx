@@ -7,54 +7,53 @@ export default function Hero() {
 
     return <section id="hero" className="d-flex justify-content-center align-items-center">
                 <div className="card">
-                    <div className="d-flex flex-wrap justify-content-center row-gap-1 align-items-center column-gap-3">
-                        <div className="d-flex flex-column align-items-center" style={{rowGap: "0.5rem"}}>
-                            <h1 className="fs-1">
-                                Kyle Egg Rain
-                            </h1>
-                            <div>
-                                Tacoma, Washington, USA
+                    <div className="d-flex justify-content-center align-items-center">
+                        <div className="d-flex flex-wrap column-gap-1 row-gap-1 align-items-center justify-content-center">
+                            <div className="d-flex flex-column align-items-center" style={{rowGap: "0.5rem"}}>
+                                <h1 className="fs-1">
+                                    Kyle Egg Rain
+                                </h1>
+                                <div>
+                                    Tacoma, Washington, USA
+                                </div>                       
                             </div>
-                            <div className="d-flex column-gap-1 align-items-center">
+
+
                                 {resumes.map(resume => < ResumeCard href={resume[1]} text={resume[0]} />)}
-                            </div>
-                            
+                        
+
+                            <figure style={{ margin: 0, width: "205px" }}>
+                                <div className="d-flex align-items-center" style={{ position: "relative" }}>
+                                    <img
+                                        src="me_at_ups_cornerstone.jpg"
+                                        alt="Me at UPS"
+                                        style={{
+                                            width: "120px",
+                                            height: "120px",
+                                            borderRadius: "50%",
+                                            flexShrink: 0
+                                        }}
+                                    />
+                                    <figcaption style={{
+                                        transform: "rotate(4deg)",
+                                        transformOrigin: "left center"
+                                    }}>
+                                        Me in UPS (Nov, 2024)
+                                    </figcaption>
+                                </div>
+                            </figure>
                         </div>
-
-                        <figure style={{ margin: 0 }}>
-                            <div className="d-flex flex-column align-items-center" style={{ position: "relative" }}>
-                                <img
-                                    src="me_at_ups_cornerstone.jpg"
-                                    alt="Me at UPS"
-                                    style={{
-                                        width: "150px",
-                                        height: "150px",
-                                        borderRadius: "50%",
-                                        flexShrink: 0
-                                    }}
-                                />
-                                <figcaption style={{
-                                    transform: "rotate(4deg)",
-                                    transformOrigin: "left center"
-                                }}>
-                                    Me in UPS (Nov, 2024)
-                                </figcaption>
-                            </div>
-                        </figure>
-
                     </div>
 
-                    <p>
-                        I'm Kyle Egg Rain (formerly Kyle "Real Good" Rego). 
-              
-                        In these uncertain times, I am working for UPS and Domino's as a loader/unloader and delivery driver, respectively. 
-             
-                        I've positioned myself near Seattle, Washington as a step toward my long term goal of a career in software development.
-
-                        To that end, I am considering starting an MS in Computer Science soon, developing several software projects in this portfolio, and system administrating an Azure Linux machine to showcase them (excluding the blog).
-                    </p>
-             
-
+                    <div className="">
+                        <p> 
+                            I work for UPS and Domino's as a loader/unloader and delivery driver, respectively, while working toward landing a software developer role (preferably onsite or hybrid with C#/ASP.NET Core/React). 
+                        </p>
+                        <p>
+                            In my free time, I enjoy cooking, hitting the gym, writing code (including the projects in this portfolio), and learning practical things.
+                        </p>
+                    </div>
+                    
                 </div>
         </section>;
 }

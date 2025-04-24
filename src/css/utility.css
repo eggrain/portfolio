@@ -35,8 +35,16 @@
     margin: 1rem 0;
 }
 
+.mt-4 {
+    margin-top: 1rem;
+}
+
 .mb-4 {
     margin-bottom: 1rem;
+}
+
+.px-2 {
+    padding: 0 1rem;
 }
 
 .text-center {

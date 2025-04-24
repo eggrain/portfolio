@@ -5,7 +5,7 @@ export default function Blog() {
     return <section id="blog" className="d-flex justify-content-center align-items-center">
                 <div className="card">
                     <div className="mb-4 d-flex flex-wrap justify-content-center align-items-center column-gap-3 row-gap-1">
-                        <h2 className="fs-1">Developer blog</h2>
+                        <h2 className="fs-1">My blog</h2>
                         
                         <DemoLink href="https://kylerego.github.io"
                                     text="kylerego.github.io"
