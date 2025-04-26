@@ -47,10 +47,13 @@ export default function Hero() {
 
                     <div className="">
                         <p> 
-                            I work for UPS and Domino's as a loader/unloader and delivery driver, respectively, while working toward landing a software developer role (preferably onsite or hybrid with C#/ASP.NET Core/React). 
+                            I work for UPS and Domino's as a loader/unloader and delivery driver, respectively.
+                        </p> 
+                        <p>
+                            My long term goal is to land a software developer role (onsite or hybrid preferably, and what I use currently is ASP.NET Core and React).    
                         </p>
                         <p>
-                            In my free time, I enjoy cooking, hitting the gym, writing code (including the projects in this portfolio), and learning practical things.
+                            In my free time, I enjoy cooking, hitting the gym, writing code, and learning stuff.
                         </p>
                     </div>
                     
