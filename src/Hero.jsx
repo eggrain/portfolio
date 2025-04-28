@@ -11,16 +11,12 @@ export default function Hero() {
                         <div className="d-flex flex-wrap column-gap-1 row-gap-1 align-items-center justify-content-center">
                             <div className="d-flex flex-column align-items-center" style={{rowGap: "0.5rem"}}>
                                 <h1 className="fs-1">
-                                    Kyle Egg Rain
+                                    Kyle Rain
                                 </h1>
                                 <div>
                                     Tacoma, Washington, USA
                                 </div>                       
                             </div>
-
-
-                                {resumes.map(resume => < ResumeCard href={resume[1]} text={resume[0]} />)}
-                        
 
                             <figure style={{ margin: 0, width: "205px" }}>
                                 <div className="d-flex align-items-center" style={{ position: "relative" }}>
@@ -42,15 +38,17 @@ export default function Hero() {
                                     </figcaption>
                                 </div>
                             </figure>
+
+                            {resumes.map(resume => < ResumeCard href={resume[1]} text={resume[0]} />)}
                         </div>
                     </div>
 
                     <div className="">
                         <p> 
-                            I work for UPS and Domino's as a loader/unloader and delivery driver, respectively.
+                            Hi, I am Kyle Rain, and this website is my software developer portfolio. 
                         </p> 
                         <p>
-                            My long term goal is to land a software developer role (onsite or hybrid preferably, and what I use currently is ASP.NET Core and React).    
+                            I work for UPS and Domino's as a loader/unloader and delivery driver, respectively, while I work toward a software developer role (onsite or hybrid with a C# stack preferably).  
                         </p>
                         <p>
                             In my free time, I enjoy cooking, hitting the gym, writing code, and learning stuff.
