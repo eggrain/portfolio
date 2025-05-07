@@ -65,7 +65,7 @@ export default function Hero() {
 
 function ResumeCard({href, text}) {
     return (
-        <a href={href} style={{
+        <a href={href} target="_blank" style={{
             height: "86px",
             width: "78px",
             padding: "16px",
