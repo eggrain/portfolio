@@ -7,22 +7,23 @@ export default function Hero() {
 
     return <section id="hero" className="d-flex justify-content-center align-items-center">
                 <div className="card">
-                    <div className="d-flex justify-content-center align-items-center">
-                        <div className="d-flex flex-wrap column-gap-1 row-gap-1 align-items-center justify-content-center">
-                            <div className="d-flex column-gap-1">
-                                < ResumeCard href={resumes[0][1]} text={resumes[0][0]} />
-
-                                <HeroHeader />
-
-                                < ResumeCard href={resumes[1][1]} text={resumes[1][0]} />
-                            </div>
-
-                        </div>
-                    </div>
+                    
 
                     <div className="">
                         <div className="d-flex column-gap-1 align-items-end">
                         <div>
+                            <div className="d-flex justify-content-center align-items-center">
+                                <div className="d-flex flex-wrap column-gap-1 row-gap-1 align-items-center justify-content-center">
+                                    <div className="d-flex column-gap-1">
+                                        < ResumeCard href={resumes[0][1]} text={resumes[0][0]} />
+
+                                        <HeroHeader />
+
+                                        < ResumeCard href={resumes[1][1]} text={resumes[1][0]} />
+                                    </div>
+
+                                </div>
+                            </div>
                             <p> 
                                 Hi, I am Kyle Rain, and this website is my software developer portfolio. 
                             </p>
