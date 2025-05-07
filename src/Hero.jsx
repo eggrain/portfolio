@@ -9,16 +9,32 @@ export default function Hero() {
                 <div className="card">
                     <div className="d-flex justify-content-center align-items-center">
                         <div className="d-flex flex-wrap column-gap-1 row-gap-1 align-items-center justify-content-center">
-                            <div className="d-flex flex-column align-items-center" style={{rowGap: "0.5rem"}}>
-                                <h1 className="fs-1">
-                                    Kyle Rain
-                                </h1>
-                                <div>
-                                    Tacoma, Washington, USA
-                                </div>                       
+                            <div className="d-flex column-gap-1">
+                                < ResumeCard href={resumes[0][1]} text={resumes[0][0]} />
+
+                                <HeroHeader />
+
+                                < ResumeCard href={resumes[1][1]} text={resumes[1][0]} />
                             </div>
 
-                            <figure style={{ margin: 0, width: "205px" }}>
+                        </div>
+                    </div>
+
+                    <div className="">
+                        <div className="d-flex column-gap-1 align-items-end">
+                        <div>
+                            <p> 
+                                Hi, I am Kyle Rain, and this website is my software developer portfolio. 
+                            </p>
+
+                            <p>
+                                I work for UPS and Domino's as a loader/unloader and delivery driver, respectively, while I work toward a software developer role (onsite or hybrid with a C# stack preferably).  
+                            </p>
+                            <p>
+                                In my free time, I enjoy cooking, hitting the gym, writing code, and learning stuff.
+                            </p>
+                        </div>
+                        <figure style={{ margin: 0, width: "205px" }} className="flex-1">
                                 <div className="d-flex align-items-center" style={{ position: "relative" }}>
                                     <img
                                         src="me_at_ups_cornerstone.jpg"
@@ -37,22 +53,9 @@ export default function Hero() {
                                         Me in UPS (Nov, 2024)
                                     </figcaption>
                                 </div>
-                            </figure>
-
-                            {resumes.map(resume => < ResumeCard href={resume[1]} text={resume[0]} />)}
+                        </figure>
                         </div>
-                    </div>
-
-                    <div className="">
-                        <p> 
-                            Hi, I am Kyle Rain, and this website is my software developer portfolio. 
-                        </p> 
-                        <p>
-                            I work for UPS and Domino's as a loader/unloader and delivery driver, respectively, while I work toward a software developer role (onsite or hybrid with a C# stack preferably).  
-                        </p>
-                        <p>
-                            In my free time, I enjoy cooking, hitting the gym, writing code, and learning stuff.
-                        </p>
+                        
                     </div>
                     
                 </div>
@@ -79,4 +82,15 @@ function ResumeCard({href, text}) {
             {text}
         </a>
     );
+}
+
+function HeroHeader() {
+    return <div className="d-flex flex-column align-items-center" style={{rowGap: "0.5rem"}}>
+                                <h1 className="fs-1">
+                                    Kyle Rain
+                                </h1>
+                                <div>
+                                    Tacoma, Washington, USA
+                                </div>                       
+                            </div>;
 }
