@@ -10,39 +10,42 @@ export default function Hero() {
                     <div className="card">
                         <div className="d-flex justify-content-center align-items-center">
                             <div className="d-flex flex-wrap column-gap-1 row-gap-1 align-items-center justify-content-center">
-                                <div className="d-flex column-gap-1 align-items-end">
-                                    <ResumeCard href={resumes[0][1]} text={resumes[0][0]} />
+                                <div className="d-flex column-gap-1 align-items-center">
+                                    <PaperishLink href={resumes[0][1]} text={resumes[0][0]} />
 
                                     <HeroHeader />
 
-                                    <ResumeCard href={resumes[1][1]} text={resumes[1][0]} />
+                                    <PaperishLink href={resumes[1][1]} text={resumes[1][0]} />
                                 </div>
 
                             </div>
                         </div>
-                        <p> 
-                            Hi, I am Kyle Rain, and this website is my software developer portfolio. 
-                        </p>
+                        <div>
+                            <div style={{float: "right"}}>
+                                <UPSPicture imgSrc={"me-at-ups-unloading-may.jpg"}
+                                    text={"Me unloading at UPS in May 2025 (the belt was stopped)"}/>
+                            </div>
+                            
+                            <p> 
+                                Hi, I am Kyle Rain, and this website is my software developer portfolio. 
+                            </p>
 
-                        <p>
-                            I work for UPS and Domino's as a loader/unloader and delivery driver, respectively, while I work toward a software developer role (onsite or hybrid with a C# stack preferably).  
-                        </p>
-                        <p>
-                            In my free time, I enjoy cooking, hitting the gym, writing code, and learning stuff.
-                        </p>
-                    </div>
-
-                    <div className="d-flex justify-content-end">
-                        <UPSPicture />
-                    </div>
-                    
+                            <p>
+                                I work for UPS and Domino's as a loader/unloader and delivery driver, respectively, while I work toward a software developer role (onsite or hybrid with a C# stack preferably).  
+                            </p>
+                            <p>
+                                In my free time, I enjoy cooking, hitting the gym, writing code, and learning stuff.
+                            </p>
+                        </div>
+                        
+                    </div>     
                 </div>
 
                 
             </section>;
 }
 
-function ResumeCard({href, text}) {
+function PaperishLink({href, text}) {
     return (
         <a href={href} target="_blank" style={{
             height: "86px",
@@ -66,34 +69,34 @@ function ResumeCard({href, text}) {
 
 function HeroHeader() {
     return <div className="d-flex flex-column align-items-center" style={{rowGap: "0.5rem"}}>
-                                <h1 className="fs-1">
-                                    Kyle Rain
-                                </h1>
-                                <div>
-                                    Tacoma, Washington, USA
-                                </div>                       
-                            </div>;
+                <h1 className="fs-2">
+                    Kyle Rain
+                </h1>
+                <div>
+                    Tacoma, Washington, USA
+                </div>                       
+            </div>;
 }
 
-function UPSPicture() {
-    return <figure style={{ margin: 0, width: "205px" }} className="flex-1">
-                                <div className="d-flex align-items-center" style={{ position: "relative" }}>
-                                    <img
-                                        src="me_at_ups_cornerstone.jpg"
-                                        alt="Me at UPS"
-                                        style={{
-                                            width: "120px",
-                                            height: "120px",
-                                            borderRadius: "50%",
-                                            flexShrink: 0
-                                        }}
-                                    />
-                                    <figcaption style={{
-                                        transform: "rotate(4deg)",
-                                        transformOrigin: "left center"
-                                    }}>
-                                        Me in UPS (Nov, 2024)
-                                    </figcaption>
-                                </div>
-                        </figure>
+function UPSPicture({imgSrc, text}) {
+    return <figure style={{ margin: 0, width: "145px" }} className="flex-1">
+                <div className="d-flex flex-column align-items-center" style={{ position: "relative" }}>
+                    <img
+                        src={imgSrc}
+                        alt="Me at UPS"
+                        style={{
+                            width: "120px",
+                            height: "120px",
+                            borderRadius: "50%",
+                            flexShrink: 0
+                        }}
+                    />
+                    <figcaption style={{
+                        transform: "rotate(4deg)",
+                        transformOrigin: "left center"
+                    }}>
+                        {text}
+                    </figcaption>
+                </div>
+        </figure>
 }
