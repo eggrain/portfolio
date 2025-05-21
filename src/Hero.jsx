@@ -6,42 +6,37 @@ export default function Hero() {
     ]
 
     return <section id="hero" className="d-flex justify-content-center align-items-center">
-                <div className="">
-                    <div className="card">
-                        <div className="d-flex justify-content-center align-items-center">
-                            <div className="d-flex flex-wrap column-gap-1 row-gap-1 align-items-center justify-content-center">
-                                <div className="d-flex column-gap-1 align-items-center">
-                                    <PaperishLink href={resumes[0][1]} text={resumes[0][0]} />
+                <div className="card">
+                    <div className="float-end d-none d-md-block">
+                        <UPSPicture />
+                    </div>
 
-                                    <HeroHeader />
+                    <div className="d-flex justify-content-center column-gap-1 align-items-center">
+                        <PaperishLink href={resumes[0][1]} text={resumes[0][0]} />
 
-                                    <PaperishLink href={resumes[1][1]} text={resumes[1][0]} />
-                                </div>
+                        <HeroHeader />
 
-                            </div>
+                        <PaperishLink href={resumes[1][1]} text={resumes[1][0]} />
+                    </div>
+
+
+                    <div>
+                        <div className="float-end d-md-none">
+                            <UPSPicture />
                         </div>
-                        <div>
-                            <div style={{float: "right"}}>
-                                <UPSPicture imgSrc={"me-at-ups-unloading-may.jpg"}
-                                    text={"Me unloading at UPS in May 2025 (the belt was stopped)"}/>
-                            </div>
-                            
-                            <p> 
-                                Hi, I am Kyle Rain, and this website is my software developer portfolio. 
-                            </p>
+                        <p> 
+                            Hi, I am Kyle Rain, and this website is my software developer portfolio. 
+                        </p>
 
-                            <p>
-                                I work for UPS and Domino's as a loader/unloader and delivery driver, respectively, while I work toward a software developer role (onsite or hybrid with a C# stack preferably).  
-                            </p>
-                            <p>
-                                In my free time, I enjoy cooking, hitting the gym, writing code, and learning stuff.
-                            </p>
-                        </div>
-                        
-                    </div>     
-                </div>
-
-                
+                        <p>
+                            I work for UPS and Domino's as a loader/unloader and delivery driver, respectively, while I work toward a software developer role (onsite or hybrid with a C# stack preferably).  
+                        </p>
+                        <p>
+                            In my free time, I enjoy cooking, hitting the gym, writing code, and learning stuff.
+                        </p>
+                    </div>
+            
+                </div>     
             </section>;
 }
 
@@ -78,7 +73,11 @@ function HeroHeader() {
             </div>;
 }
 
-function UPSPicture({imgSrc, text}) {
+function UPSPicture() {
+    return <Picture imgSrc={"me-at-ups-unloading-may.jpg"} text={"Me unloading at UPS in May 2025 (belt was stopped)"}/>
+}
+
+function Picture({imgSrc, text}) {
     return <figure style={{ margin: 0, width: "145px" }} className="flex-1">
                 <div className="d-flex flex-column align-items-center" style={{ position: "relative" }}>
                     <img
@@ -92,7 +91,7 @@ function UPSPicture({imgSrc, text}) {
                         }}
                     />
                     <figcaption style={{
-                        transform: "rotate(4deg)",
+                        transform: "rotate(3deg)",
                         transformOrigin: "left center"
                     }}>
                         {text}
