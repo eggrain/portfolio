@@ -11,10 +11,12 @@ export default function Hero() {
                         <UPSPicture />
                     </div>
 
-                    <div className="d-flex justify-content-center column-gap-1 align-items-center">
-                        <PaperishLink href={resumes[0][1]} text={resumes[0][0]} />
+                    <div className="d-flex flex-wrap justify-content-center row-gap-1 column-gap-3 align-items-center">
+                        
 
                         <HeroHeader />
+
+                        <PaperishLink href={resumes[0][1]} text={resumes[0][0]} />
 
                         <PaperishLink href={resumes[1][1]} text={resumes[1][0]} />
                     </div>
@@ -74,7 +76,7 @@ function HeroHeader() {
 }
 
 function UPSPicture() {
-    return <Picture imgSrc={"me-at-ups-unloading-may.jpg"} text={"Me unloading at UPS in May 2025 (belt was stopped)"}/>
+    return <Picture imgSrc={"me-at-ups-unloading-may.jpg"} text={"Me at UPS, May 2025"}/>
 }
 
 function Picture({imgSrc, text}) {
