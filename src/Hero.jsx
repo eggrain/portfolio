@@ -27,13 +27,10 @@ export default function Hero() {
                             <UPSPicture />
                         </div>
                         <p> 
-                            Hi, I am Kyle Rain, and this website is my software developer portfolio. 
-                        </p>
+                            Hi, I am Kyle Rain! This website is my software developer portfolio :).
 
-                        <p>
-                            I work for UPS and Domino's as a loader/unloader and delivery driver, respectively, while I work toward a software developer role (onsite or hybrid with a C# stack preferably).  
-                        </p>
-                        <p>
+                            I work for UPS and Domino's as a loader/unloader and delivery driver, respectively.
+                 
                             In my free time, I enjoy cooking, hitting the gym, writing code, and learning stuff.
                         </p>
                     </div>
