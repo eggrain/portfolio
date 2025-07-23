@@ -33,6 +33,17 @@ a {
     color: var(--link-color);
 }
 
+.header-link {
+    color: var(--black);
+    font-size: unset;
+    text-decoration: underline dotted var(--demo-link-color);
+}
+
+.header-link:hover {
+    color: var(--black);
+    text-decoration: underline dotted var(--light-pink);
+}
+
 p {
     font-size: 18px;
     line-height: 1.5;
@@ -94,4 +105,18 @@ h1, h2, ul, ol, h2, h3, h4 {
 
 .whitespace-nowrap {
     white-space: nowrap;
+}
+
+.btn {
+    padding: 0.4rem 0.5rem;
+    background-color: #fff;
+    color: rgb(255, 0, 170);
+    border: 1px solid rgb(255, 0, 170);
+    border-radius: 0.4rem;
+    cursor: pointer;
+}
+
+.btn:hover {
+    background-color: rgb(255, 164, 232);
+    color: black;
 }

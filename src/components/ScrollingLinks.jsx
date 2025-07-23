@@ -32,7 +32,7 @@ export default function ScrollingLinks({ links }) {
     return (
         <div
             ref={containerRef}
-            className="d-flex overflow-x-auto whitespace-nowrap column-gap-3 justify-content-center"
+            className="d-flex column-gap-1 justify-content-center align-items-center"
             style={{ scrollbarWidth: "none", msOverflowStyle: "none", overflow: "hidden" }}
         >
             {duplicatedLinks.map(([text, href], index) => (

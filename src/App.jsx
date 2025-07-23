@@ -18,8 +18,9 @@ export default function App() {
 
         <div className="App" style={{width: "100%", maxWidth: "100vw"}}>
             <Hero />
-            <Larder />
             <Gob />
+            <Larder />
+            
             <AnkiBooks />
             <Blog />
         </div>

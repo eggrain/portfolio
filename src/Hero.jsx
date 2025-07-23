@@ -1,8 +1,8 @@
 export default function Hero() {
 
     const resumes = [
-        ["KR Tech Resume", "https://kylerego.github.io/assets/kylerego_resume.pdf"],
-        ["KR Jobs Resume", "https://kylerego.github.io/assets/kyle_jobs_resume.pdf"]
+        ["KR Tech Resume", "https://eggrain.blog/assets/kylerego_resume.pdf"],
+        ["KR Jobs Resume", "https://eggrain.blog/assets/kyle_jobs_resume.pdf"]
     ]
 
     return <section id="hero" className="d-flex justify-content-center align-items-center">
@@ -27,9 +27,8 @@ export default function Hero() {
                             <UPSPicture />
                         </div>
                         <p> 
-                            Hi, I am Kyle Rain! This website is my software developer portfolio :).
+                            Hi, I am Kyle Rain! I am a loader/unloader at UPS and delivery driver at Domino's 😁. This is my portfolio of software projects that I've developed.
 
-                            I work for UPS and Domino's as a loader/unloader and delivery driver, respectively.
                  
                             In my free time, I enjoy cooking, hitting the gym, writing code, and learning stuff.
                         </p>

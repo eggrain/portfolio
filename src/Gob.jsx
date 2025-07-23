@@ -1,31 +1,27 @@
-import DemoLink from "./components/DemoLink";
 import LinksGallery from "./components/LinksDemo";
-import ScrollingLinks from "./components/ScrollingLinks";
 
 export default function Gob() {
     const gobBlogPosts = [
-        ["ASP.NET Core setup notes Part 1", "https://kylerego.github.io/notes-on-new-asp-net-core-api-swagger-ef-core-sqlite"],
-        ["ASP.NET Core setup notes Part 2", "https://kylerego.github.io/notes-on-new-asp-net-core-api-aspnetcore-identity-cors"]
+        ["File uploads in lilgobguides (Razor pages)" ,"https://eggrain.blog/file-uploads-lilgobguides"],
+        ["Notes on lilgobguides build and CI/CD (Razor pages)", "https://eggrain.blog/lilgobguides-build-and-cicd-notes"],
+        ["Razor pages file upload model binding with EF Core", "https://eggrain.blog/img-upload-for-card-header"],
+        ["Initial work integrating Trix editor into Razor pages", "https://eggrain.blog/initial-trix-editor-razor-pages"],
+        ["How to seed an ASP.NET Core Identity user", "https://eggrain.blog/how-to-seed-an-asp-net-core-identity-user"],
     ]
 
 
     return <section id="gob-guides" className="d-flex justify-content-center align-items-center">
                 <div className="card">
-                    <div className="mb-4 d-flex flex-wrap justify-content-center align-items-center column-gap-3 row-gap-1">
-                        <h2 className="fs-1" style={{wordBreak: "break-all"}}>Lilgobslayerguides.NET</h2>
-                        
-                        <DemoLink href="https://lilgobslayerguides.net"
-                                            text="Gob Guides" />
-                        
-                    </div>
-
+                    <h2 className="fs-1">
+                        <a class="header-link" href="https://lilgobslayerguides.net">lilgobslayerguides.net</a>
+                    </h2>
+                    
                     <div>
                         <p>
-                            My biggest hobby other than programming is playing Old School Runescape.
-                            I mostly play this MMORPG as an "Ultimate Iron", which is an account type that restricts both trading with other players and banking one's items. 
+                            One of my hobbies is playing Old School Runescape (yes I am a gamer). This Java game which I've played since I was a kid has amazed me many times and inspired me to keep learning and practicing software development. 
                         </p>
                         <p>
-                           Today this Java game which I have played since I was a kid is one of my biggest inspirations to keep learning and practicing software development.
+                           This ASP.NET Core Razor pages project was my return to server-rendered HTML which I think is the best choice for a solo developer with limited time (embracing that opinion of Rails again!).
                         </p>
                     </div>
 

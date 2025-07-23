@@ -1,6 +1,6 @@
 # README
 
-React app source code for my [portfolio website](https://kylerego.net).
+React app source code for my [portfolio website](https://portfolio.eggrain.net).
 
 ## Note about CSS for Kyle
 
