@@ -7,7 +7,7 @@ export default function Menu() {
             <nav>
                 <ol>
                     <li><a href="#hero">Kyle Rain</a></li>
-                    <li><a href="#gob-guides">lilgobslayerguides.net</a></li>
+                    <li><a href="#gob-guides">lil gob slayer guides</a></li>
                     <li><a href="#larder">Larder</a></li>
                     
                     <li><a href="#ruby-ankibooks">Anki Books</a></li>

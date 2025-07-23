@@ -13,7 +13,7 @@ export default function Gob() {
     return <section id="gob-guides" className="d-flex justify-content-center align-items-center">
                 <div className="card">
                     <h2 className="fs-1">
-                        <a class="header-link" href="https://lilgobslayerguides.net">lilgobslayerguides.net</a>
+                        <a className="header-link" href="https://lilgobslayerguides.net">lilgobslayerguides.net</a>
                     </h2>
                     
                     <div>
@@ -21,7 +21,7 @@ export default function Gob() {
                             One of my hobbies is playing Old School Runescape (yes I am a gamer). This Java game which I've played since I was a kid has amazed me many times and inspired me to keep learning and practicing software development. 
                         </p>
                         <p>
-                           This ASP.NET Core Razor pages project was my return to server-rendered HTML which I think is the best choice for a solo developer with limited time (embracing that opinion of Rails again!).
+                           lilgobguides.net is an ASP.NET Core Razor pages project. It was also my return to server-rendered HTML, which I think is best choice for a solo developer in most cases (embracing that opinion of Rails again!).
                         </p>
                     </div>
 
