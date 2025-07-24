@@ -21,7 +21,7 @@ export default function Gob() {
                             One of my hobbies is playing Old School Runescape (yes I am a gamer). This Java game which I've played since I was a kid has amazed me many times and inspired me to keep learning and practicing software development. 
                         </p>
                         <p>
-                           lilgobguides.net is an ASP.NET Core Razor pages project. It was also my return to server-rendered HTML, which I think is best choice for a solo developer in most cases (embracing that opinion of Rails again!).
+                           lilgobguides is my ASP.NET Core Razor pages Old School Runescape guides website. It was also my return to server-rendered HTML, which I think is the best choice for a solo developer in most cases (embracing that opinion of Rails again!).
                         </p>
                     </div>
 
