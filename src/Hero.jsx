@@ -12,13 +12,11 @@ export default function Hero() {
                     </div>
 
                     <div className="d-flex flex-wrap justify-content-center row-gap-1 column-gap-3 align-items-center">
-                        
-
                         <HeroHeader />
 
-                        <PaperishLink href={resumes[0][1]} text={resumes[0][0]} />
+                        {/* <PaperishLink href={resumes[0][1]} text={resumes[0][0]} />
 
-                        <PaperishLink href={resumes[1][1]} text={resumes[1][0]} />
+                        <PaperishLink href={resumes[1][1]} text={resumes[1][0]} /> */}
                     </div>
 
 
@@ -27,10 +25,11 @@ export default function Hero() {
                             <UPSPicture />
                         </div>
                         <p> 
-                            Hi, I am Kyle Rain! I am a loader/unloader at UPS and delivery driver at Domino's 😁. This is my portfolio of software projects that I've developed.
-
+                            Hi, I am Kyle Rain! I am a loader/unloader at UPS and delivery driver at Domino's 😁. This is a portfolio of software projects I've developed. I am experienced with C#/.NET, ASP.NET Core, and Ruby on Rails.
+                        </p>
                  
-                            In my free time, I enjoy cooking, hitting the gym, writing code, and learning stuff.
+                        <p>
+                            In my free time, I like to cook, hit the gym, write code, and learn new things.
                         </p>
                     </div>
             

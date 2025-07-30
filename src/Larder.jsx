@@ -7,7 +7,7 @@ export default function Larder() {
         ["ICrudServiceBase<TDto, TEntity> and ICrudRepositoryBase<TEntity>", "https://eggrain.blog/icrudservicetdotentityandicrudrepositorytentity"],
         ["Work on cooking a recipe in Larder", "https://eggrain.blog/work-on-cooking-recipe-in-larder"],
         ["Builder Pattern in Larder (C#)", "https://eggrain.blog/builder-pattern-in-larder"],
-        ["Note on mixing constructor and object initialization syntax with EF Core entity classes", "https://eggrain.blog/ef-core-constructor-and-object-initialization-syntax"],
+        ["Mixing constructor and object initialization syntax (EF Core)", "https://eggrain.blog/ef-core-constructor-and-object-initialization-syntax"],
         ["Service Locator Pattern to provide services to an abstract base class (ASP.NET Core)", "https://eggrain.blog/service-locator-pattern-derived-services"],
         ["Controller-service-repository architecture", "https://eggrain.blog/comparison-of-ruby-on-rails-asp-net-core-design"],
         
