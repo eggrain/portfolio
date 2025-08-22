@@ -25,7 +25,7 @@ export default function Hero() {
                             <UPSPicture />
                         </div>
                         <p> 
-                            Hi, I am Kyle Rain! I am a loader/unloader at UPS and delivery driver at Domino's 😁. This is a portfolio of software projects I've developed. I am experienced with C#/.NET, ASP.NET Core, and Ruby on Rails.
+                            Hi, I am Kyle Rain! I am a loader/unloader at UPS and manager at Domino's 😁. This is a portfolio of software projects I've developed. I am experienced with C#/.NET, ASP.NET Core, and Ruby on Rails.
                         </p>
                  
                         <p>
