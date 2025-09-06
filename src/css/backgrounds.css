@@ -26,3 +26,7 @@ section#larder {
     background: url("../nutrition_label_black_beans.jpg");
     opacity: 90%;
 }
+
+section#todolist-section {
+    background: url("../todolist-screenshot.png");
+}
