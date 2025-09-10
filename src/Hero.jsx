@@ -61,7 +61,7 @@ function PaperishLink({href, text}) {
 
 function HeroHeader() {
     return <div className="d-flex flex-column align-items-center" style={{rowGap: "0.5rem"}}>
-                <h1 className="fs-2">
+                <h1 className="fs-1">
                     Kyle Rain
                 </h1>
                 <div>
