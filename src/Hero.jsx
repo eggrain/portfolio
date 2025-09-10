@@ -25,11 +25,11 @@ export default function Hero() {
                             <SelfieOfMe />
                         </div>
                         <p> 
-                            Hi, I am Kyle Rain! I am a loader/unloader at UPS and manager at Domino's 😁. This is a portfolio of software projects I've developed. I am experienced with C#/.NET, ASP.NET Core, and Ruby on Rails.
+                            Hi, I am Kyle Rain! I am a loader/unloader at UPS, manager at Domino's, and free software developer--this website is my software projects portfolio. I am experienced with C#/.NET, ASP.NET Core, and Ruby on Rails.
                         </p>
                  
                         <p>
-                            In my free time, I like to cook, hit the gym, write code, and play Old School Runescape. My objective is to live a happy life and help the community toward the ideal of social interest with my thinking influenced by <a href="https://ankibooks.io/articles/c00ea634-4dbd-4a43-81e9-0d850d9587ea">Ichiro Kishimi and Fumitake Koga's interpretation of Adlerian psychology.</a>
+                            In my free time, I like to cook, hit the gym, write code, and play Old School Runescape.
                         </p>
                     </div>
             
@@ -71,25 +71,25 @@ function HeroHeader() {
 }
 
 function SelfieOfMe() {
-    return <Picture imgSrc={"dominos-hat-selfie.png"} text={"Me (August 2025)"}/>
+    return <Picture imgSrc={"bright-kitchen-selfie.jpg"} text={"Me (August 2025)"}/>
 }
 
 function Picture({imgSrc, text}) {
     return <figure  className="flex-1" style={{margin: 0, width: "145px",
-                                            transform: "rotate(-10deg)",
-                                            transformOrigin: "left center"
+                                            
                     }}>
                 <div className="d-flex flex-column align-items-center" style={{ position: "relative" }}>
                     <img
                         src={imgSrc}
-                        alt="Me at UPS"
+                        alt={text}
                         style={{
-                            width: "120px",
-                            height: "120px",
-                            borderRadius: "50%",
-                            flexShrink: 0
+                            width: "120px", // when changing picture, adjust aspect ratio here
+                            height: "144px",
+                            borderRadius: "12px",
+                            objectFit: "cover"
                         }}
-                    />
+                        />
+
                     <figcaption>
                         {text}
                     </figcaption>

@@ -8,10 +8,10 @@ export default function Todolist() {
                     
                     <div>
                         <p>
-                            My app todolist is an ASP.NET Core Razor pages app where I've deliberately taken a tactical approach with no unit tests and asynchronous JavaScript assisted by ChatGPT.
+                            <code>todolist</code> is an ASP.NET Core Razor Pages app where I've deliberately taken a tactical approach with no unit tests and asynchronous JavaScript assisted by ChatGPT.
                         </p>
                         <p>
-                           Inspired by a Planner book that I was using, todolist quickly supplanted that planner, and has become my home base with checklists, goals, progress notes, and project development planning features.
+                           Inspired by a planner book that I was using, todolist quickly supplanted that planner, and has become my home base with checklists, goals, progress notes, and project development planning features.
                         </p>
                     </div>
 

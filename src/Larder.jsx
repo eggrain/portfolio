@@ -19,7 +19,7 @@ export default function Larder() {
         <div className="card">
 
             <h2 className="fs-1">
-                <a className="header-link" href="https://larder.eggrain.net">Larder</a>
+                <a className="header-link" href="https://larder.eggrain.net">larder.eggrain.net</a>
             </h2>
 
             <div className="d-flex flex-wrap justify-content-center column-gap-3 align-items-center">
