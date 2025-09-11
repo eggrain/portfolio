@@ -25,7 +25,7 @@ export default function Hero() {
                             <SelfieOfMe />
                         </div>
                         <p> 
-                            Hi, I am Kyle Rain! I am a loader/unloader at UPS, manager at Domino's, and free software developer--this website is my software projects portfolio. I am experienced with C#/.NET, ASP.NET Core, and Ruby on Rails.
+                            Hi, I am Kyle Rain! I am a loader/unloader at UPS, manager at Domino's, and free software developer--this website is my portfolio of software projects. I am experienced with C#/.NET, ASP.NET Core, and Ruby on Rails.
                         </p>
                  
                         <p>

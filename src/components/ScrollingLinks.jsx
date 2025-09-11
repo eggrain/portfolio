@@ -4,7 +4,6 @@ import DemoLink from "./DemoLink";
 export default function ScrollingLinks({ links }) {
     const containerRef = useRef(null);
     const scrollDirectionRef = useRef(1);
-    const duplicatedLinks = useMemo(() => links.concat(links), [links]);
     const scrollAmount = 1.5;
 
     useEffect(() => {
@@ -35,7 +34,7 @@ export default function ScrollingLinks({ links }) {
             className="d-flex column-gap-1 justify-content-center align-items-center"
             style={{ scrollbarWidth: "none", msOverflowStyle: "none", overflow: "hidden" }}
         >
-            {duplicatedLinks.map(([text, href], index) => (
+            {links.map(([text, href], index) => (
                 <DemoLink text={text} href={href} key={index} />
             ))}
         </div>

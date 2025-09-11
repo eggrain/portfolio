@@ -1,5 +1,11 @@
+import LinksGallery from "./components/LinksDemo";
 
 export default function Todolist() {
+
+    const todolistPosts = [
+        ["Explanation of a Program.cs file","https://eggrain.blog/programcs"]
+    ];
+
     return <section id="todolist-section" className="d-flex justify-content-center align-items-center">
                 <div className="card">
                     <h2 className="fs-1">
@@ -14,6 +20,8 @@ export default function Todolist() {
                            Inspired by a planner book that I was using, todolist quickly supplanted that planner, and has become my home base with checklists, goals, progress notes, and project development planning features.
                         </p>
                     </div>
+
+                    <LinksGallery heading={"Related blog posts"} links={todolistPosts} />
 
                 </div>
 

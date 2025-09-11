@@ -6,7 +6,6 @@ export default function Menu() {
             <h2 className="mb-2">Portfolio Contents:</h2>
             <nav>
                 <ol>
-                    <li><a href="#hero">hero</a></li>
                     <li><a href="#todolist-section">todolist</a></li>
                     <li><a href="#gob-guides">lilgobguides</a></li>
                     <li><a href="#larder">larder</a></li>
