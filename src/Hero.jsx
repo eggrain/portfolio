@@ -71,7 +71,7 @@ function HeroHeader() {
 }
 
 function SelfieOfMe() {
-    return <Picture imgSrc={"bright-kitchen-selfie.jpg"} text={"Me (August 2025)"}/>
+    return <Picture imgSrc={"bright-kitchen-selfie.jpg"} text={"Me"}/>
 }
 
 function Picture({imgSrc, text}) {
