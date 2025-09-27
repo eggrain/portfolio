@@ -18,7 +18,7 @@ export default function Gob() {
                     
                     
                         <p>
-                           lilgobguides is my Old School Runescape blog/guides website. It was my return to server-rendered HTML, which I think is the best choice for a solo developer in most cases (embracing that opinion of Rails again!).
+                           <code>lilgobguides</code> is my Old School Runescape blog/guides website and ASP.NET Core Razor Pages project. It was my return to server-rendered HTML, which I think is the best choice for a solo developer in most cases (embracing that opinion of Rails again!).
                         </p>
                     
 
