@@ -25,11 +25,11 @@ export default function Hero() {
                             <SelfieOfMe />
                         </div>
                         <p> 
-                            Hi, I am Kyle Rain! I am a loader/unloader at UPS, manager at Domino's, and free software developer--this website is my portfolio of software projects. I am experienced with C#/.NET, ASP.NET Core, and Ruby on Rails.
+                            Hi, I am Kyle Rain. I am an unloader at UPS, manager at Domino's, and free software developer experienced with C#/.NET, ASP.NET Core, and Ruby on Rails.
                         </p>
                  
                         <p>
-                            In my free time, I like to cook, hit the gym, write code, and play Old School Runescape.
+                            In my free time, I like to cook, hit the gym, write code, and play video games.
                         </p>
                     </div>
             
@@ -71,7 +71,7 @@ function HeroHeader() {
 }
 
 function SelfieOfMe() {
-    return <Picture imgSrc={"bright-kitchen-selfie.jpg"} text={"Me"}/>
+    return <Picture imgSrc={"trans-selfie-1.jpg"} text={"Me"}/>
 }
 
 function Picture({imgSrc, text}) {
@@ -84,7 +84,7 @@ function Picture({imgSrc, text}) {
                         alt={text}
                         style={{
                             width: "120px", // when changing picture, adjust aspect ratio here
-                            height: "144px",
+                            height: "213px",
                             borderRadius: "12px",
                             objectFit: "cover"
                         }}
