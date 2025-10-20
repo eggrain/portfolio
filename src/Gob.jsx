@@ -16,14 +16,11 @@ export default function Gob() {
                         <a className="header-link" href="https://lilgobslayerguides.net">lilgobslayerguides.net</a>
                     </h2>
                     
-                    <div>
+                    
                         <p>
-                            One of my hobbies is playing Old School Runescape (yes I am a gamer). This Java game which I've played since I was a kid has amazed me many times and inspired me to keep learning and practicing software development. 
+                           <code>lilgobguides</code> is my Old School Runescape blog/guides website and ASP.NET Core Razor Pages project. It was my return to server-rendered HTML, which I think is the best choice for a solo developer in most cases (embracing that opinion of Rails again!).
                         </p>
-                        <p>
-                           lilgobguides is my ASP.NET Core Razor pages Old School Runescape guides website. It was also my return to server-rendered HTML, which I think is the best choice for a solo developer in most cases (embracing that opinion of Rails again!).
-                        </p>
-                    </div>
+                    
 
                     <LinksGallery heading={"Related technical blog posts"} links={gobBlogPosts} />
 
