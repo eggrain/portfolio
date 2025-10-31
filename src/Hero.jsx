@@ -25,7 +25,7 @@ export default function Hero() {
                             <SelfieOfMe />
                         </div>
                         <p> 
-                            Hi, I am Kyle Rain. I am an unloader at UPS, manager at Domino's, and free software developer experienced with C#/.NET, ASP.NET Core, and Ruby on Rails.
+                            Hi, I am Kyle Rain (she/her). I am an unloader at UPS, manager at Domino's, and free software developer sometimes.
                         </p>
                  
                         <p>
@@ -71,7 +71,7 @@ function HeroHeader() {
 }
 
 function SelfieOfMe() {
-    return <Picture imgSrc={"trans-selfie-1.jpg"} text={"Me"}/>
+    return <Picture imgSrc={"standing-selfie.jpg"} text={"Me"}/>
 }
 
 function Picture({imgSrc, text}) {
