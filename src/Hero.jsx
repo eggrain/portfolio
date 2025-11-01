@@ -25,7 +25,7 @@ export default function Hero() {
                             <SelfieOfMe />
                         </div>
                         <p> 
-                            Hi, I am Kyle Rain (she/her). I am an unloader at UPS, manager at Domino's, and free software developer sometimes.
+                            Hi, I am Kyle Rain (she/her). I'm an unloader at UPS, assistant manager at Domino's, and free software developer.
                         </p>
                  
                         <p>
