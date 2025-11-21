@@ -25,7 +25,7 @@ export default function Hero() {
                             <SelfieOfMe />
                         </div>
                         <p> 
-                            Hi, I am Kyle Rain (she/her). I'm an unloader at UPS, assistant manager at Domino's, and free software developer.
+                            Hi, I'm Zoe (she/her). I'm an unloader at UPS, assistant manager at Domino's, and free software developer. This website is a portfolio of some of my software projects. 
                         </p>
                  
                         <p>
@@ -62,7 +62,7 @@ function PaperishLink({href, text}) {
 function HeroHeader() {
     return <div className="d-flex flex-column align-items-center" style={{rowGap: "0.5rem"}}>
                 <h1 className="fs-1">
-                    Kyle Rain
+                    Zoe Rain
                 </h1>
                 <div>
                     Tacoma, Washington, USA
