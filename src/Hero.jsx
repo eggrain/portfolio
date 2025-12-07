@@ -25,7 +25,7 @@ export default function Hero() {
                             <SelfieOfMe />
                         </div>
                         <p> 
-                            Hi, I'm Zoe (she/her). I'm an unloader at UPS, assistant manager at Domino's, and free software developer. This website is a portfolio of some of my software projects. 
+                            Hi, I'm Zoe (she/her). I'm an unloader at UPS and free software developer. This website is a portfolio of some of my software projects. 
                         </p>
                  
                         <p>
