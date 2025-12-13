@@ -30,3 +30,7 @@ section#larder {
 section#todolist-section {
     background: url("../todolist-screenshot.png");
 }
+
+section#health-section {
+    background: url("../health-mvp.png");
+}

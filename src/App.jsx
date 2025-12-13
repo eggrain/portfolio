@@ -5,6 +5,7 @@ import Menu from "./Menu";
 import Blog from "./Blog";
 import Gob from "./Gob";
 import Todolist from "./Todolist";
+import Health from "./Health";
 
 import "./css/App.css";
 
@@ -19,6 +20,7 @@ export default function App() {
 
         <div className="App" style={{width: "100%", maxWidth: "100vw"}}>
             <Hero />
+            <Health />
             <Todolist />
             <Gob />
             <Larder />
