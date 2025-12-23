@@ -27,8 +27,8 @@ export default function Larder() {
                     <p>
                         Larder is a React/ASP.NET Core API and controller-service-repository practice project. It was intended to be an inventory-tracking app for foods and ingredients, however the chosen architecture, as well as scope creep, made this project unwieldy for me to continue developing once I became too busy with 2 jobs. 
                     </p>
-                    <p>    
-                        Despite its unfinished state and backend features developed with no UI to utilize them, Larder was a good learning experience for the architecture emphasizing separation of concerns, the testing of it, design patterns like service locator, builder, entity-component, and using React with ASP.NET Core.
+                    <p>
+                        Despite its unfinished state and backend features developed with no UI to utilize them, Larder was a good learning experience for the architecture emphasizing separation of concerns, React, ASP.NET Core, and design patterns like service locator, builder, and entity-component-system.
                     </p>
                 </div>
             </div>

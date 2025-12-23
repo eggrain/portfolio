@@ -3,7 +3,7 @@ import AnkiBooks from "./AnkiBooks";
 import Larder from "./Larder";
 import Menu from "./Menu";
 import Blog from "./Blog";
-import Gob from "./Gob";
+import Oldschool from "./Oldschool";
 import Todolist from "./Todolist";
 import Health from "./Health";
 
@@ -22,9 +22,8 @@ export default function App() {
             <Hero />
             <Health />
             <Todolist />
-            <Gob />
+            <Oldschool />
             <Larder />
-            
             <AnkiBooks />
             <Blog />
         </div>

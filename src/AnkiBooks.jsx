@@ -12,11 +12,9 @@ export default function AnkiBooks() {
     return <section id="ruby-ankibooks" className="d-flex justify-content-center align-items-center">
         <div className="card">
             <div className="mb-4 d-flex flex-wrap justify-content-center align-items-center column-gap-3 row-gap-1">
-                <h2 className="fs-1">Anki Books</h2>
-
-                <DemoLink href="https://ankibooks.io"
-                            text="ankibooks.io"
-                            labelText="Deployed app:" />
+                <h2 className="fs-1">
+                    <a className="header-link" href="https://ankibooks.eggrain.net">ankibooks.eggrain.net</a>
+                </h2>
 
                 <DemoLink href="https://rubygems.org/gems/anki_record/versions/0.4.1"
                             text="Anki Record"
@@ -30,7 +28,7 @@ export default function AnkiBooks() {
                         Anki Books is an app that combines flashcards with online books; it is able to create Anki deck package files (*.apkg files which are zipped SQLite databases) for download that the desktop app Anki (not affiliated) can import, using Anki Record, a Ruby gem that I developed.
                     </p>
                     <p>
-                        The idea of a collaborative platform for creating Anki flashcards, documented in the form of online books, was the app idea that lead me to teach myself programming in 2021 and something I worked on off and on for many years. This Ruby on Rails version is the most complete so far; other versions used Laravel, Ruby on Rails, and Blazor/ASP.NET Core.
+                        The idea of a collaborative platform for creating Anki flashcards, documented in the form of online books, was the app idea that lead me to teach myself programming in 2021 and something I worked on off and on for many years. This Ruby on Rails version is the most complete. Other versions used Laravel, Ruby on Rails, and ASP.NET Core Blazor.
   
                     </p>
 

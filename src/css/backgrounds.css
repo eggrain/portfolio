@@ -2,7 +2,7 @@ section#hero {
     background-image: url("../inside_ups.jpg");
 }
 
-section#gob-guides {
+section#oldschool {
     background: url("../inside_sote_library.png");
 }
 
@@ -18,7 +18,7 @@ section#larder .card {
     background-color: #a3ffae;
 }
 
-section#gob-guides .card {
+section#oldschool .card {
     background-color: azure;
 }
 
