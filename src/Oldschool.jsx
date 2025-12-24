@@ -16,7 +16,7 @@ export default function Oldschool() {
                     </h2>
                     
                     <p>
-                        An Old School RuneScape hobby site built with Razor Pages; after working on Larder (React + ASP.NET Core Web API) and Anki Books (Blazor Web App with mixed client- and server-rendered HTML), I found server-rendered HTML to be a much better experience as a solo developer.
+                        An Old School RuneScape hobby site built with Razor Pages; after working on Larder (React + ASP.NET Core Web API) and the Blazor Anki Books (Blazor Web App with mixed client- and server-rendered HTML), I found server-rendered HTML to be a much better experience as a solo developer.
                     </p>
 
                     <LinksGallery heading={"Related technical blog posts"} links={gobBlogPosts} />

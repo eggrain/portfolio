@@ -17,11 +17,6 @@
     color: var(--demo-link-color);
 }
 
-.demo-link:hover {
-    color: var(--black);
-    text-decoration: underline;
-}
-
 .demo-screenshot {
     max-width: 32rem;
     margin: 1rem;
@@ -40,9 +35,13 @@ a {
     text-decoration: underline dotted var(--demo-link-color);
 }
 
-.header-link:hover {
-    color: var(--black);
+a:hover {
+    color: var(--link-hover-color);
     text-decoration: underline dotted var(--light-pink);
+}
+
+.demo-link:hover {
+    border-color: var(--light-pink);
 }
 
 p {
@@ -53,10 +52,6 @@ p {
 
 ol, ul {
     text-align: left;
-}
-
-a:hover {
-    color: var(--link-hover-color);
 }
 
 section {
