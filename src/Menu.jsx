@@ -3,9 +3,10 @@ import "./css/menu.css";
 export default function Menu() {
     return <div className="menu">
         <div className="card card-sm">
-            <h2 className="mb-2">Portfolio Contents:</h2>
+            <h2 className="mb-2">Website contents:</h2>
             <nav>
                 <ol>
+                    <li><a href="#hero">zoe</a></li>
                     <li><a href="#health-section">health</a></li>
                     <li><a href="#todolist-section">todolist</a></li>
                     <li><a href="#oldschool">oldschool</a></li>
