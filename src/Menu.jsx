@@ -7,6 +7,7 @@ export default function Menu() {
             <nav>
                 <ol>
                     <li><a href="#hero">zoe</a></li>
+                    <li><a href="#hots">hots</a></li>
                     <li><a href="#health-section">health</a></li>
                     <li><a href="#todolist-section">todolist</a></li>
                     <li><a href="#oldschool">oldschool</a></li>

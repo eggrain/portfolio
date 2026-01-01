@@ -13,6 +13,7 @@ import "./css/utility.css";
 import "./css/flex.css";
 import "./css/fonts.css";
 import "./css/backgrounds.css";
+import Hots from "./Hots";
 
 export default function App() {
     return <>
@@ -20,6 +21,7 @@ export default function App() {
 
         <div className="App" style={{width: "100%", maxWidth: "100vw"}}>
             <Hero />
+            <Hots />
             <Health />
             <Todolist />
             <Oldschool />

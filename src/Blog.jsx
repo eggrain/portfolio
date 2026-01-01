@@ -18,7 +18,7 @@ export default function Blog() {
                     </div>
 
                     <h3 className="fs-2 mb-4">
-                        Also on this site:
+                        Also on eggrain.blog:
                     </h3>
 
                     <div className="d-flex flex-wrap justify-content-center column-gap-3 align-items-center">

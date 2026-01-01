@@ -15,7 +15,12 @@ export default function Larder() {
     ];
 
 
-    return <section id="larder" className="d-flex flex-wrap column-gap-3 justify-content-center align-items-center">
+    return <section id="larder" className="video-section d-flex flex-wrap column-gap-3 justify-content-center align-items-center">
+        <div className="bg-video">
+            <video autoPlay muted loop playsInline preload="metadata">
+            <source src="/videos/larder.mp4" type="video/mp4" />
+            </video>
+        </div>
         <div className="card">
 
             <h2 className="fs-1">
@@ -33,7 +38,7 @@ export default function Larder() {
                 </div>
             </div>
 
-            <LinksGallery heading={"Blog posts about Larder"} links={larderBlogs} />
+            <LinksGallery heading={"Blog posts:"} links={larderBlogs} />
         </div>
     </section>;
 }

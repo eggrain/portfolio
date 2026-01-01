@@ -21,7 +21,7 @@ export default function Todolist() {
                         </p>
                     </div>
 
-                    <LinksGallery heading={"Related blog posts"} links={todolistPosts} />
+                    <LinksGallery heading={"Blog post:"} links={todolistPosts} />
 
                 </div>
 

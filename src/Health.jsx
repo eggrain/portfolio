@@ -18,7 +18,7 @@ export default function Health() {
                         </p>
                     </div>
 
-                    <LinksGallery heading={"Related blog posts"} links={healthPosts} />
+                    <LinksGallery heading={"Blog post:"} links={healthPosts} />
 
                 </div>
 

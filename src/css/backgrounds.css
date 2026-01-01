@@ -3,7 +3,7 @@ section#hero {
 }
 
 section#oldschool {
-    background: url("../inside_sote_library.png");
+    background: url("../new-haircut-osrs.png");
 }
 
 section#blog {
@@ -27,10 +27,43 @@ section#larder {
     opacity: 90%;
 }
 
+.video-section {
+  position: relative;
+  min-height: 100vh; /* or whatever height you want */
+  overflow: hidden;
+}
+
+/* background layer */
+.video-section .bg-video {
+  position: absolute;
+  inset: 0;
+  z-index: 0;
+}
+
+.video-section video {
+  width: 100%;
+  height: 100%;
+  object-fit: scale-down;
+}
+
+/* content layer */
+.video-section .section-content {
+  position: relative;
+  z-index: 1;
+  padding: 4rem;
+  color: white;
+}
+
+
 section#todolist-section {
     background: url("../todolist-screenshot.png");
 }
 
 section#health-section {
     background: url("../health-mvp.png");
+}
+
+section#hots {
+    background: url("../another-me.jpg");
+    background-size: contain;
 }
