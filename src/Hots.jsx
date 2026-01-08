@@ -6,12 +6,10 @@ export default function Hots() {
                     <h2 className="fs-1">
                         <a className="header-link" href="https://thots.eggrain.net">thots.eggrain.net</a>
                     </h2>
-                    
+
                     <p>
-                        <code>hots</code> is a React app that I developed in about an hour because I wanted to practice something specific. The domain logic is implemented separately from the React components as a small JavaScript library, solidly covered by unit tests.
+                        <code>hots</code> is a React app that I developed because I wanted to practice something specific. The domain logic is implemented separately from the React components as a small JavaScript library, solidly covered by unit tests.
                     </p>
-
                 </div>
-
         </section>;
 }

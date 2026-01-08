@@ -15,10 +15,11 @@ export default function Hero() {
                             <SelfieOfMe />
                         </div>
                         <p> 
-                            Hi, I'm <span className="z">Z</span>oe (she/her). I'm an unloader at UPS.
+                            Hi, I'm Zoe (she/her). I'm an unloader at UPS.
                         </p>
+
                         <p>
-                            This website is a portfolio of some of my software projects. I am looking for another part-time job doing software development work. 
+                            This website is a portfolio of some of my software projects.
                         </p>
                  
                         <p>
@@ -33,7 +34,7 @@ export default function Hero() {
 function HeroHeader() {
     return <div className="d-flex flex-column align-items-center" style={{rowGap: "0.5rem"}}>
                 <h1 className="fs-1">
-                    <span className="z">Z</span>oe E. Rain
+                    Zoe Rain
                 </h1>
                 <div>
                     Tacoma, Washington, USA
