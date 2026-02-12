@@ -21,7 +21,7 @@ export default function App() {
 
         <div className="App" style={{width: "100%", maxWidth: "100vw"}}>
             <Hero />
-            <Hots />
+            {/* <Hots /> */}
             <Health />
             <Todolist />
             <Oldschool />

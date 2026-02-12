@@ -15,11 +15,11 @@ export default function Hero() {
                             <SelfieOfMe />
                         </div>
                         <p> 
-                            Hi, I'm Zoe (she/her). I'm an unloader at UPS.
+                            Hi, I'm Zoe (she/her). I'm an unloader/loader at UPS.
                         </p>
 
                         <p>
-                            This website is a portfolio of some of my software projects.
+                            This website is a portfolio of some of my software projects, but only <code>todolist</code> and <code>lilgobguides</code> are up right now.
                         </p>
                  
                         <p>
