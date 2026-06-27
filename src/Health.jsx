@@ -3,7 +3,7 @@ import LinksGallery from "./components/LinksDemo";
 export default function Health() {
 
     const healthPosts = [
-        ["What I want to put into a template of a Razor Pages app","https://eggrain.blog/what-i-want-in-a-razor-pages-app-template"]
+        ["What I want to put into a template of a Razor Pages app","https://eggrain.github.io/what-i-want-in-a-razor-pages-app-template"]
     ];
 
     return <section id="health-section" className="d-flex justify-content-center align-items-center">

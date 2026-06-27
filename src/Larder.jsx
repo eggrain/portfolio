@@ -2,16 +2,16 @@ import LinksGallery from "./components/LinksDemo";
 
 export default function Larder() {
     const larderBlogs = [
-        ["Initial work on an ASP.NET Core integration tests project", "https://eggrain.blog/aspnetcoreintegrationtesting"],
-        ["Repository unit tests in Larder" ,"https://eggrain.blog/repositoryunittestsinlarder"],
-        ["ICrudServiceBase<TDto, TEntity> and ICrudRepositoryBase<TEntity>", "https://eggrain.blog/icrudservicetdotentityandicrudrepositorytentity"],
-        ["Work on cooking a recipe in Larder", "https://eggrain.blog/work-on-cooking-recipe-in-larder"],
-        ["Builder Pattern in Larder (C#)", "https://eggrain.blog/builder-pattern-in-larder"],
-        ["Mixing constructor and object initialization syntax (EF Core)", "https://eggrain.blog/ef-core-constructor-and-object-initialization-syntax"],
-        ["Service Locator Pattern to provide services to an abstract base class (ASP.NET Core)", "https://eggrain.blog/service-locator-pattern-derived-services"],
-        ["Controller-service-repository architecture", "https://eggrain.blog/comparison-of-ruby-on-rails-asp-net-core-design"],
+        ["Initial work on an ASP.NET Core integration tests project", "https://eggrain.github.io/aspnetcoreintegrationtesting"],
+        ["Repository unit tests in Larder" ,"https://eggrain.github.io/repositoryunittestsinlarder"],
+        ["ICrudServiceBase<TDto, TEntity> and ICrudRepositoryBase<TEntity>", "https://eggrain.github.io/icrudservicetdotentityandicrudrepositorytentity"],
+        ["Work on cooking a recipe in Larder", "https://eggrain.github.io/work-on-cooking-recipe-in-larder"],
+        ["Builder Pattern in Larder (C#)", "https://eggrain.github.io/builder-pattern-in-larder"],
+        ["Mixing constructor and object initialization syntax (EF Core)", "https://eggrain.github.io/ef-core-constructor-and-object-initialization-syntax"],
+        ["Service Locator Pattern to provide services to an abstract base class (ASP.NET Core)", "https://eggrain.github.io/service-locator-pattern-derived-services"],
+        ["Controller-service-repository architecture", "https://eggrain.github.io/comparison-of-ruby-on-rails-asp-net-core-design"],
         
-        ["[JsonConstructor] constructor for System.Text.Json", "https://eggrain.blog/jsonconstructor-constructor-for-system-text-json"]
+        ["[JsonConstructor] constructor for System.Text.Json", "https://eggrain.github.io/jsonconstructor-constructor-for-system-text-json"]
     ];
 
 

@@ -19,15 +19,8 @@ export default function App() {
     return <>
         <Menu />
 
-        <div className="App" style={{width: "100%", maxWidth: "100vw"}}>
+        <div className="App" style={{ width: "100%", maxWidth: "100vw" }}>
             <Hero />
-            {/* <Hots /> */}
-            <Health />
-            <Todolist />
-            <Oldschool />
-            <Larder />
-            <AnkiBooks />
-            <Blog />
         </div>
     </>;
 }

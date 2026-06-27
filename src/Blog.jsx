@@ -4,7 +4,7 @@ export default function Blog() {
     return <section id="blog" className="d-flex justify-content-center align-items-center">
                 <div className="card">
                     <h2 className="fs-1">
-                        <a className="header-link" href="https://eggrain.blog">eggrain.blog</a>
+                        <a className="header-link" href="https://eggrain.github.io">eggrain.github.io</a>
                     </h2>
 
                     <div className="d-flex flex-wrap justify-content-center column-gap-3 align-items-center">
@@ -18,13 +18,13 @@ export default function Blog() {
                     </div>
 
                     <h3 className="fs-2 mb-4">
-                        Also on eggrain.blog:
+                        Also on eggrain.github.io:
                     </h3>
 
                     <div className="d-flex flex-wrap justify-content-center column-gap-3 align-items-center">
-                        <DemoLink href={"https://eggrain.blog/the-old-website"} text={"My first portfolio"} />
-                        <DemoLink href={"https://eggrain.blog/the-old-website/snake/index.html"} text={"React snake game"} />
-                        <DemoLink href={"https://eggrain.blog/anki_record_docs/"} text={"Anki Record API docs"} />
+                        <DemoLink href={"https://eggrain.github.io/the-old-website"} text={"My first portfolio"} />
+                        <DemoLink href={"https://eggrain.github.io/the-old-website/snake/index.html"} text={"React snake game"} />
+                        <DemoLink href={"https://eggrain.github.io/anki_record_docs/"} text={"Anki Record API docs"} />
                     </div>
 
                 </div>

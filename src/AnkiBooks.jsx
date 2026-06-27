@@ -3,13 +3,13 @@ import LinksGallery from "./components/LinksDemo";
 
 export default function AnkiBooks() {
     const allAnkiBooksPosts = [
-        ["Setting up Anki Books for development on WSL2 Ubuntu","https://eggrain.blog/setting-up-development-ankibooks"],
-        ["Customizing the Trix editor", "https://eggrain.blog/customizing-the-trix-editor"],
-        ["method_missing in the Anki Record gem", "https://eggrain.blog/anki_record_method_missing"],
-        ["Action View permissions error after using Docker", "https://eggrain.blog/action_view_permissions_error_after_using_docker"],
-        ["Initial thoughts on Blazor", "https://eggrain.blog/initial-thoughts-on-blazor"],
-        ["Considerations when prerendering Razor components that request data in a Blazor Web App", "https://eggrain.blog/prerendering-razor-components-that-request-data-in-a-blazor-web-app"],
-        ["What Blazor Anki Books looks like", "https://eggrain.blog/what-ankibooks-looks-like-part-two"],
+        ["Setting up Anki Books for development on WSL2 Ubuntu","https://eggrain.github.io/setting-up-development-ankibooks"],
+        ["Customizing the Trix editor", "https://eggrain.github.io/customizing-the-trix-editor"],
+        ["method_missing in the Anki Record gem", "https://eggrain.github.io/anki_record_method_missing"],
+        ["Action View permissions error after using Docker", "https://eggrain.github.io/action_view_permissions_error_after_using_docker"],
+        ["Initial thoughts on Blazor", "https://eggrain.github.io/initial-thoughts-on-blazor"],
+        ["Considerations when prerendering Razor components that request data in a Blazor Web App", "https://eggrain.github.io/prerendering-razor-components-that-request-data-in-a-blazor-web-app"],
+        ["What Blazor Anki Books looks like", "https://eggrain.github.io/what-ankibooks-looks-like-part-two"],
     ];
 
     return <section id="ruby-ankibooks" className="d-flex justify-content-center align-items-center">

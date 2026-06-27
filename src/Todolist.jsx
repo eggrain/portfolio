@@ -3,7 +3,7 @@ import LinksGallery from "./components/LinksDemo";
 export default function Todolist() {
 
     const todolistPosts = [
-        ["Explanation of a Program.cs file","https://eggrain.blog/programcs"]
+        ["Explanation of a Program.cs file","https://eggrain.github.io/programcs"]
     ];
 
     return <section id="todolist-section" className="d-flex justify-content-center align-items-center">
